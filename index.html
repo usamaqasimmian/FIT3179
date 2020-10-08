@@ -1,28 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Vega-Embed test</title>
+<head>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@[VERSION]"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@[VERSION]"></script>
+  <!-- Import vega-embed -->
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@[VERSION]"></script>
+</head>
+<body>
 
-    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-    <script src="build/vega-embed.js"></script>
+<div id="vis"></div>
 
-    <style>
-      #wrapper {
-        width: 1000px;
-        overflow: hidden;
-        border: 1px solid firebrick;
-      }
-    </style>
-  </head>
-
-  <body>
-    <div id="wrapper"></div>
-    <script type="text/javascript">
-      vegaEmbed("https://vega.github.io/vega/examples/bar-chart.vg.json").then((div) => {
-        document.getElementById("wrapper").appendChild(div);
-      });
-    </script>
-  </body>
+<script type="text/javascript">
+  var spec = "https://raw.githubusercontent.com/vega/vega/master/docs/examples/bar-chart.vg.json";
+  vegaEmbed('#vis', spec).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+</script>
+</body>
 </html>
