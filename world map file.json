@@ -1,0 +1,1317 @@
+[
+  {
+    "Country Name": "Aruba",
+    "Country Code": "ABW",
+    "Number of threatened species*": 28
+  },
+  {
+    "Country Name": "Afghanistan",
+    "Country Code": "AFG",
+    "Number of threatened species*": 31
+  },
+  {
+    "Country Name": "Angola",
+    "Country Code": "AGO",
+    "Number of threatened species*": 103
+  },
+  {
+    "Country Name": "Albania",
+    "Country Code": "ALB",
+    "Number of threatened species*": 55
+  },
+  {
+    "Country Name": "Andorra",
+    "Country Code": "AND",
+    "Number of threatened species*": 5
+  },
+  {
+    "Country Name": "Arab World",
+    "Country Code": "ARB",
+    "Number of threatened species*": 1239
+  },
+  {
+    "Country Name": "United Arab Emirates",
+    "Country Code": "ARE",
+    "Number of threatened species*": 41
+  },
+  {
+    "Country Name": "Argentina",
+    "Country Code": "ARG",
+    "Number of threatened species*": 132
+  },
+  {
+    "Country Name": "Armenia",
+    "Country Code": "ARM",
+    "Number of threatened species*": 26
+  },
+  {
+    "Country Name": "American Samoa",
+    "Country Code": "ASM",
+    "Number of threatened species*": 21
+  },
+  {
+    "Country Name": "Antigua and Barbuda",
+    "Country Code": "ATG",
+    "Number of threatened species*": 36
+  },
+  {
+    "Country Name": "Australia",
+    "Country Code": "AUS",
+    "Number of threatened species*": 240
+  },
+  {
+    "Country Name": "Austria",
+    "Country Code": "AUT",
+    "Number of threatened species*": 27
+  },
+  {
+    "Country Name": "Azerbaijan",
+    "Country Code": "AZE",
+    "Number of threatened species*": 39
+  },
+  {
+    "Country Name": "Burundi",
+    "Country Code": "BDI",
+    "Number of threatened species*": 46
+  },
+  {
+    "Country Name": "Belgium",
+    "Country Code": "BEL",
+    "Number of threatened species*": 23
+  },
+  {
+    "Country Name": "Benin",
+    "Country Code": "BEN",
+    "Number of threatened species*": 65
+  },
+  {
+    "Country Name": "Burkina Faso",
+    "Country Code": "BFA",
+    "Number of threatened species*": 25
+  },
+  {
+    "Country Name": "Bangladesh",
+    "Country Code": "BGD",
+    "Number of threatened species*": 102
+  },
+  {
+    "Country Name": "Bulgaria",
+    "Country Code": "BGR",
+    "Number of threatened species*": 47
+  },
+  {
+    "Country Name": "Bahrain",
+    "Country Code": "BHR",
+    "Number of threatened species*": 24
+  },
+  {
+    "Country Name": "Bahamas, The",
+    "Country Code": "BHS",
+    "Number of threatened species*": 58
+  },
+  {
+    "Country Name": "Bosnia and Herzegovina",
+    "Country Code": "BIH",
+    "Number of threatened species*": 47
+  },
+  {
+    "Country Name": "Belarus",
+    "Country Code": "BLR",
+    "Number of threatened species*": 15
+  },
+  {
+    "Country Name": "Belize",
+    "Country Code": "BLZ",
+    "Number of threatened species*": 61
+  },
+  {
+    "Country Name": "Bermuda",
+    "Country Code": "BMU",
+    "Number of threatened species*": 34
+  },
+  {
+    "Country Name": "Bolivia",
+    "Country Code": "BOL",
+    "Number of threatened species*": 84
+  },
+  {
+    "Country Name": "Brazil",
+    "Country Code": "BRA",
+    "Number of threatened species*": 348
+  },
+  {
+    "Country Name": "Barbados",
+    "Country Code": "BRB",
+    "Number of threatened species*": 36
+  },
+  {
+    "Country Name": "Brunei Darussalam",
+    "Country Code": "BRN",
+    "Number of threatened species*": 78
+  },
+  {
+    "Country Name": "Bhutan",
+    "Country Code": "BTN",
+    "Number of threatened species*": 49
+  },
+  {
+    "Country Name": "Botswana",
+    "Country Code": "BWA",
+    "Number of threatened species*": 29
+  },
+  {
+    "Country Name": "Central African Republic",
+    "Country Code": "CAF",
+    "Number of threatened species*": 35
+  },
+  {
+    "Country Name": "Canada",
+    "Country Code": "CAN",
+    "Number of threatened species*": 86
+  },
+  {
+    "Country Name": "Central Europe and the Baltics",
+    "Country Code": "CEB",
+    "Number of threatened species*": 365
+  },
+  {
+    "Country Name": "Switzerland",
+    "Country Code": "CHE",
+    "Number of threatened species*": 21
+  },
+  {
+    "Country Name": "Channel Islands",
+    "Country Code": "CHI",
+    "Number of threatened species*": 0
+  },
+  {
+    "Country Name": "Chile",
+    "Country Code": "CHL",
+    "Number of threatened species*": 81
+  },
+  {
+    "Country Name": "China",
+    "Country Code": "CHN",
+    "Number of threatened species*": 305
+  },
+  {
+    "Country Name": "Cote d'Ivoire",
+    "Country Code": "CIV",
+    "Number of threatened species*": 115
+  },
+  {
+    "Country Name": "Cameroon",
+    "Country Code": "CMR",
+    "Number of threatened species*": 197
+  },
+  {
+    "Country Name": "Congo, Dem. Rep.",
+    "Country Code": "COD",
+    "Number of threatened species*": 168
+  },
+  {
+    "Country Name": "Congo, Rep.",
+    "Country Code": "COG",
+    "Number of threatened species*": 79
+  },
+  {
+    "Country Name": "Colombia",
+    "Country Code": "COL",
+    "Number of threatened species*": 283
+  },
+  {
+    "Country Name": "Comoros",
+    "Country Code": "COM",
+    "Number of threatened species*": 30
+  },
+  {
+    "Country Name": "Cabo Verde",
+    "Country Code": "CPV",
+    "Number of threatened species*": 46
+  },
+  {
+    "Country Name": "Costa Rica",
+    "Country Code": "CRI",
+    "Number of threatened species*": 102
+  },
+  {
+    "Country Name": "Caribbean small states",
+    "Country Code": "CSS",
+    "Number of threatened species*": 577
+  },
+  {
+    "Country Name": "Cuba",
+    "Country Code": "CUB",
+    "Number of threatened species*": 73
+  },
+  {
+    "Country Name": "Curacao",
+    "Country Code": "CUW",
+    "Number of threatened species*": 33
+  },
+  {
+    "Country Name": "Cayman Islands",
+    "Country Code": "CYM",
+    "Number of threatened species*": 35
+  },
+  {
+    "Country Name": "Cyprus",
+    "Country Code": "CYP",
+    "Number of threatened species*": 37
+  },
+  {
+    "Country Name": "Czech Republic",
+    "Country Code": "CZE",
+    "Number of threatened species*": 14
+  },
+  {
+    "Country Name": "Germany",
+    "Country Code": "DEU",
+    "Number of threatened species*": 40
+  },
+  {
+    "Country Name": "Djibouti",
+    "Country Code": "DJI",
+    "Number of threatened species*": 46
+  },
+  {
+    "Country Name": "Dominica",
+    "Country Code": "DMA",
+    "Number of threatened species*": 41
+  },
+  {
+    "Country Name": "Denmark",
+    "Country Code": "DNK",
+    "Number of threatened species*": 29
+  },
+  {
+    "Country Name": "Dominican Republic",
+    "Country Code": "DOM",
+    "Number of threatened species*": 53
+  },
+  {
+    "Country Name": "Algeria",
+    "Country Code": "DZA",
+    "Number of threatened species*": 70
+  },
+  {
+    "Country Name": "East Asia & Pacific (excluding high income)",
+    "Country Code": "EAP",
+    "Number of threatened species*": 2662
+  },
+  {
+    "Country Name": "Early-demographic dividend",
+    "Country Code": "EAR",
+    "Number of threatened species*": 5801
+  },
+  {
+    "Country Name": "East Asia & Pacific",
+    "Country Code": "EAS",
+    "Number of threatened species*": 3788
+  },
+  {
+    "Country Name": "Europe & Central Asia (excluding high income)",
+    "Country Code": "ECA",
+    "Number of threatened species*": 940
+  },
+  {
+    "Country Name": "Europe & Central Asia",
+    "Country Code": "ECS",
+    "Number of threatened species*": 2267
+  },
+  {
+    "Country Name": "Ecuador",
+    "Country Code": "ECU",
+    "Number of threatened species*": 214
+  },
+  {
+    "Country Name": "Egypt, Arab Rep.",
+    "Country Code": "EGY",
+    "Number of threatened species*": 90
+  },
+  {
+    "Country Name": "Euro area",
+    "Country Code": "EMU",
+    "Number of threatened species*": 846
+  },
+  {
+    "Country Name": "Eritrea",
+    "Country Code": "ERI",
+    "Number of threatened species*": 65
+  },
+  {
+    "Country Name": "Spain",
+    "Country Code": "ESP",
+    "Number of threatened species*": 119
+  },
+  {
+    "Country Name": "Estonia",
+    "Country Code": "EST",
+    "Number of threatened species*": 15
+  },
+  {
+    "Country Name": "Ethiopia",
+    "Country Code": "ETH",
+    "Number of threatened species*": 83
+  },
+  {
+    "Country Name": "European Union",
+    "Country Code": "EUU",
+    "Number of threatened species*": 1146
+  },
+  {
+    "Country Name": "Fragile and conflict affected situations",
+    "Country Code": "FCS",
+    "Number of threatened species*": 2577
+  },
+  {
+    "Country Name": "Finland",
+    "Country Code": "FIN",
+    "Number of threatened species*": 19
+  },
+  {
+    "Country Name": "Fiji",
+    "Country Code": "FJI",
+    "Number of threatened species*": 41
+  },
+  {
+    "Country Name": "France",
+    "Country Code": "FRA",
+    "Number of threatened species*": 78
+  },
+  {
+    "Country Name": "Faroe Islands",
+    "Country Code": "FRO",
+    "Number of threatened species*": 23
+  },
+  {
+    "Country Name": "Micronesia, Fed. Sts.",
+    "Country Code": "FSM",
+    "Number of threatened species*": 42
+  },
+  {
+    "Country Name": "Gabon",
+    "Country Code": "GAB",
+    "Number of threatened species*": 97
+  },
+  {
+    "Country Name": "United Kingdom",
+    "Country Code": "GBR",
+    "Number of threatened species*": 64
+  },
+  {
+    "Country Name": "Georgia",
+    "Country Code": "GEO",
+    "Number of threatened species*": 34
+  },
+  {
+    "Country Name": "Ghana",
+    "Country Code": "GHA",
+    "Number of threatened species*": 102
+  },
+  {
+    "Country Name": "Gibraltar",
+    "Country Code": "GIB",
+    "Number of threatened species*": 27
+  },
+  {
+    "Country Name": "Guinea",
+    "Country Code": "GIN",
+    "Number of threatened species*": 126
+  },
+  {
+    "Country Name": "Gambia, The",
+    "Country Code": "GMB",
+    "Number of threatened species*": 59
+  },
+  {
+    "Country Name": "Guinea-Bissau",
+    "Country Code": "GNB",
+    "Number of threatened species*": 67
+  },
+  {
+    "Country Name": "Equatorial Guinea",
+    "Country Code": "GNQ",
+    "Number of threatened species*": 73
+  },
+  {
+    "Country Name": "Greece",
+    "Country Code": "GRC",
+    "Number of threatened species*": 107
+  },
+  {
+    "Country Name": "Grenada",
+    "Country Code": "GRD",
+    "Number of threatened species*": 34
+  },
+  {
+    "Country Name": "Greenland",
+    "Country Code": "GRL",
+    "Number of threatened species*": 24
+  },
+  {
+    "Country Name": "Guatemala",
+    "Country Code": "GTM",
+    "Number of threatened species*": 73
+  },
+  {
+    "Country Name": "Guam",
+    "Country Code": "GUM",
+    "Number of threatened species*": 31
+  },
+  {
+    "Country Name": "Guyana",
+    "Country Code": "GUY",
+    "Number of threatened species*": 60
+  },
+  {
+    "Country Name": "High income",
+    "Country Code": "HIC",
+    "Number of threatened species*": 4189
+  },
+  {
+    "Country Name": "Hong Kong SAR, China",
+    "Country Code": "HKG",
+    "Number of threatened species*": 40
+  },
+  {
+    "Country Name": "Honduras",
+    "Country Code": "HND",
+    "Number of threatened species*": 67
+  },
+  {
+    "Country Name": "Heavily indebted poor countries (HIPC)",
+    "Country Code": "HPC",
+    "Number of threatened species*": 3284
+  },
+  {
+    "Country Name": "Croatia",
+    "Country Code": "HRV",
+    "Number of threatened species*": 87
+  },
+  {
+    "Country Name": "Haiti",
+    "Country Code": "HTI",
+    "Number of threatened species*": 51
+  },
+  {
+    "Country Name": "Hungary",
+    "Country Code": "HUN",
+    "Number of threatened species*": 25
+  },
+  {
+    "Country Name": "IBRD only",
+    "Country Code": "IBD",
+    "Number of threatened species*": 7184
+  },
+  {
+    "Country Name": "IDA & IBRD total",
+    "Country Code": "IBT",
+    "Number of threatened species*": 12431
+  },
+  {
+    "Country Name": "IDA total",
+    "Country Code": "IDA",
+    "Number of threatened species*": 5247
+  },
+  {
+    "Country Name": "IDA blend",
+    "Country Code": "IDB",
+    "Number of threatened species*": 1123
+  },
+  {
+    "Country Name": "Indonesia",
+    "Country Code": "IDN",
+    "Number of threatened species*": 517
+  },
+  {
+    "Country Name": "IDA only",
+    "Country Code": "IDX",
+    "Number of threatened species*": 4124
+  },
+  {
+    "Country Name": "Isle of Man",
+    "Country Code": "IMN",
+    "Number of threatened species*": 2
+  },
+  {
+    "Country Name": "India",
+    "Country Code": "IND",
+    "Number of threatened species*": 413
+  },
+  {
+    "Country Name": "Not classified",
+    "Country Code": "INX",
+    "Number of threatened species*": 0
+  },
+  {
+    "Country Name": "Ireland",
+    "Country Code": "IRL",
+    "Number of threatened species*": 42
+  },
+  {
+    "Country Name": "Iran, Islamic Rep.",
+    "Country Code": "IRN",
+    "Number of threatened species*": 93
+  },
+  {
+    "Country Name": "Iraq",
+    "Country Code": "IRQ",
+    "Number of threatened species*": 49
+  },
+  {
+    "Country Name": "Iceland",
+    "Country Code": "ISL",
+    "Number of threatened species*": 29
+  },
+  {
+    "Country Name": "Israel",
+    "Country Code": "ISR",
+    "Number of threatened species*": 83
+  },
+  {
+    "Country Name": "Italy",
+    "Country Code": "ITA",
+    "Number of threatened species*": 77
+  },
+  {
+    "Country Name": "Jamaica",
+    "Country Code": "JAM",
+    "Number of threatened species*": 48
+  },
+  {
+    "Country Name": "Jordan",
+    "Country Code": "JOR",
+    "Number of threatened species*": 47
+  },
+  {
+    "Country Name": "Japan",
+    "Country Code": "JPN",
+    "Number of threatened species*": 155
+  },
+  {
+    "Country Name": "Kazakhstan",
+    "Country Code": "KAZ",
+    "Number of threatened species*": 57
+  },
+  {
+    "Country Name": "Kenya",
+    "Country Code": "KEN",
+    "Number of threatened species*": 148
+  },
+  {
+    "Country Name": "Kyrgyz Republic",
+    "Country Code": "KGZ",
+    "Number of threatened species*": 23
+  },
+  {
+    "Country Name": "Cambodia",
+    "Country Code": "KHM",
+    "Number of threatened species*": 118
+  },
+  {
+    "Country Name": "Kiribati",
+    "Country Code": "KIR",
+    "Number of threatened species*": 22
+  },
+  {
+    "Country Name": "St. Kitts and Nevis",
+    "Country Code": "KNA",
+    "Number of threatened species*": 35
+  },
+  {
+    "Country Name": "Korea, Rep.",
+    "Country Code": "KOR",
+    "Number of threatened species*": 73
+  },
+  {
+    "Country Name": "Kuwait",
+    "Country Code": "KWT",
+    "Number of threatened species*": 36
+  },
+  {
+    "Country Name": "Latin America & Caribbean (excluding high income)",
+    "Country Code": "LAC",
+    "Number of threatened species*": 2683
+  },
+  {
+    "Country Name": "Lao PDR",
+    "Country Code": "LAO",
+    "Number of threatened species*": 129
+  },
+  {
+    "Country Name": "Lebanon",
+    "Country Code": "LBN",
+    "Number of threatened species*": 49
+  },
+  {
+    "Country Name": "Liberia",
+    "Country Code": "LBR",
+    "Number of threatened species*": 102
+  },
+  {
+    "Country Name": "Libya",
+    "Country Code": "LBY",
+    "Number of threatened species*": 50
+  },
+  {
+    "Country Name": "St. Lucia",
+    "Country Code": "LCA",
+    "Number of threatened species*": 39
+  },
+  {
+    "Country Name": "Latin America & Caribbean",
+    "Country Code": "LCN",
+    "Number of threatened species*": 3462
+  },
+  {
+    "Country Name": "Least developed countries: UN classification",
+    "Country Code": "LDC",
+    "Number of threatened species*": 3573
+  },
+  {
+    "Country Name": "Low income",
+    "Country Code": "LIC",
+    "Number of threatened species*": 2150
+  },
+  {
+    "Country Name": "Liechtenstein",
+    "Country Code": "LIE",
+    "Number of threatened species*": 2
+  },
+  {
+    "Country Name": "Sri Lanka",
+    "Country Code": "LKA",
+    "Number of threatened species*": 103
+  },
+  {
+    "Country Name": "Lower middle income",
+    "Country Code": "LMC",
+    "Number of threatened species*": 4414
+  },
+  {
+    "Country Name": "Low & middle income",
+    "Country Code": "LMY",
+    "Number of threatened species*": 11946
+  },
+  {
+    "Country Name": "Lesotho",
+    "Country Code": "LSO",
+    "Number of threatened species*": 13
+  },
+  {
+    "Country Name": "Late-demographic dividend",
+    "Country Code": "LTE",
+    "Number of threatened species*": 3889
+  },
+  {
+    "Country Name": "Lithuania",
+    "Country Code": "LTU",
+    "Number of threatened species*": 18
+  },
+  {
+    "Country Name": "Luxembourg",
+    "Country Code": "LUX",
+    "Number of threatened species*": 4
+  },
+  {
+    "Country Name": "Latvia",
+    "Country Code": "LVA",
+    "Number of threatened species*": 18
+  },
+  {
+    "Country Name": "Macao SAR, China",
+    "Country Code": "MAC",
+    "Number of threatened species*": 13
+  },
+  {
+    "Country Name": "St. Martin (French part)",
+    "Country Code": "MAF",
+    "Number of threatened species*": 34
+  },
+  {
+    "Country Name": "Morocco",
+    "Country Code": "MAR",
+    "Number of threatened species*": 90
+  },
+  {
+    "Country Name": "Monaco",
+    "Country Code": "MCO",
+    "Number of threatened species*": 18
+  },
+  {
+    "Country Name": "Moldova",
+    "Country Code": "MDA",
+    "Number of threatened species*": 23
+  },
+  {
+    "Country Name": "Madagascar",
+    "Country Code": "MDG",
+    "Number of threatened species*": 269
+  },
+  {
+    "Country Name": "Maldives",
+    "Country Code": "MDV",
+    "Number of threatened species*": 26
+  },
+  {
+    "Country Name": "Middle East & North Africa",
+    "Country Code": "MEA",
+    "Number of threatened species*": 1190
+  },
+  {
+    "Country Name": "Mexico",
+    "Country Code": "MEX",
+    "Number of threatened species*": 348
+  },
+  {
+    "Country Name": "Marshall Islands",
+    "Country Code": "MHL",
+    "Number of threatened species*": 23
+  },
+  {
+    "Country Name": "Middle income",
+    "Country Code": "MIC",
+    "Number of threatened species*": 9796
+  },
+  {
+    "Country Name": "North Macedonia",
+    "Country Code": "MKD",
+    "Number of threatened species*": 32
+  },
+  {
+    "Country Name": "Mali",
+    "Country Code": "MLI",
+    "Number of threatened species*": 33
+  },
+  {
+    "Country Name": "Malta",
+    "Country Code": "MLT",
+    "Number of threatened species*": 29
+  },
+  {
+    "Country Name": "Myanmar",
+    "Country Code": "MMR",
+    "Number of threatened species*": 158
+  },
+  {
+    "Country Name": "Middle East & North Africa (excluding high income)",
+    "Country Code": "MNA",
+    "Number of threatened species*": 818
+  },
+  {
+    "Country Name": "Montenegro",
+    "Country Code": "MNE",
+    "Number of threatened species*": 51
+  },
+  {
+    "Country Name": "Mongolia",
+    "Country Code": "MNG",
+    "Number of threatened species*": 37
+  },
+  {
+    "Country Name": "Northern Mariana Islands",
+    "Country Code": "MNP",
+    "Number of threatened species*": 34
+  },
+  {
+    "Country Name": "Mozambique",
+    "Country Code": "MOZ",
+    "Number of threatened species*": 119
+  },
+  {
+    "Country Name": "Mauritania",
+    "Country Code": "MRT",
+    "Number of threatened species*": 82
+  },
+  {
+    "Country Name": "Mauritius",
+    "Country Code": "MUS",
+    "Number of threatened species*": 40
+  },
+  {
+    "Country Name": "Malawi",
+    "Country Code": "MWI",
+    "Number of threatened species*": 65
+  },
+  {
+    "Country Name": "Malaysia",
+    "Country Code": "MYS",
+    "Number of threatened species*": 221
+  },
+  {
+    "Country Name": "North America",
+    "Country Code": "NAC",
+    "Number of threatened species*": 502
+  },
+  {
+    "Country Name": "Namibia",
+    "Country Code": "NAM",
+    "Number of threatened species*": 80
+  },
+  {
+    "Country Name": "New Caledonia",
+    "Country Code": "NCL",
+    "Number of threatened species*": 63
+  },
+  {
+    "Country Name": "Niger",
+    "Country Code": "NER",
+    "Number of threatened species*": 30
+  },
+  {
+    "Country Name": "Nigeria",
+    "Country Code": "NGA",
+    "Number of threatened species*": 126
+  },
+  {
+    "Country Name": "Nicaragua",
+    "Country Code": "NIC",
+    "Number of threatened species*": 64
+  },
+  {
+    "Country Name": "Netherlands",
+    "Country Code": "NLD",
+    "Number of threatened species*": 28
+  },
+  {
+    "Country Name": "Norway",
+    "Country Code": "NOR",
+    "Number of threatened species*": 42
+  },
+  {
+    "Country Name": "Nepal",
+    "Country Code": "NPL",
+    "Number of threatened species*": 74
+  },
+  {
+    "Country Name": "Nauru",
+    "Country Code": "NRU",
+    "Number of threatened species*": 15
+  },
+  {
+    "Country Name": "New Zealand",
+    "Country Code": "NZL",
+    "Number of threatened species*": 116
+  },
+  {
+    "Country Name": "OECD members",
+    "Country Code": "OED",
+    "Number of threatened species*": 3071
+  },
+  {
+    "Country Name": "Oman",
+    "Country Code": "OMN",
+    "Number of threatened species*": 59
+  },
+  {
+    "Country Name": "Other small states",
+    "Country Code": "OSS",
+    "Number of threatened species*": 1083
+  },
+  {
+    "Country Name": "Pakistan",
+    "Country Code": "PAK",
+    "Number of threatened species*": 104
+  },
+  {
+    "Country Name": "Panama",
+    "Country Code": "PAN",
+    "Number of threatened species*": 99
+  },
+  {
+    "Country Name": "Peru",
+    "Country Code": "PER",
+    "Number of threatened species*": 224
+  },
+  {
+    "Country Name": "Philippines",
+    "Country Code": "PHL",
+    "Number of threatened species*": 222
+  },
+  {
+    "Country Name": "Palau",
+    "Country Code": "PLW",
+    "Number of threatened species*": 31
+  },
+  {
+    "Country Name": "Papua New Guinea",
+    "Country Code": "PNG",
+    "Number of threatened species*": 141
+  },
+  {
+    "Country Name": "Poland",
+    "Country Code": "POL",
+    "Number of threatened species*": 23
+  },
+  {
+    "Country Name": "Pre-demographic dividend",
+    "Country Code": "PRE",
+    "Number of threatened species*": 3239
+  },
+  {
+    "Country Name": "Puerto Rico",
+    "Country Code": "PRI",
+    "Number of threatened species*": 45
+  },
+  {
+    "Country Name": "Korea, Dem. People’s Rep.",
+    "Country Code": "PRK",
+    "Number of threatened species*": 59
+  },
+  {
+    "Country Name": "Portugal",
+    "Country Code": "PRT",
+    "Number of threatened species*": 95
+  },
+  {
+    "Country Name": "Paraguay",
+    "Country Code": "PRY",
+    "Number of threatened species*": 37
+  },
+  {
+    "Country Name": "West Bank and Gaza",
+    "Country Code": "PSE",
+    "Number of threatened species*": 21
+  },
+  {
+    "Country Name": "Pacific island small states",
+    "Country Code": "PSS",
+    "Number of threatened species*": 338
+  },
+  {
+    "Country Name": "Post-demographic dividend",
+    "Country Code": "PST",
+    "Number of threatened species*": 2498
+  },
+  {
+    "Country Name": "French Polynesia",
+    "Country Code": "PYF",
+    "Number of threatened species*": 63
+  },
+  {
+    "Country Name": "Qatar",
+    "Country Code": "QAT",
+    "Number of threatened species*": 30
+  },
+  {
+    "Country Name": "Romania",
+    "Country Code": "ROU",
+    "Number of threatened species*": 48
+  },
+  {
+    "Country Name": "Russian Federation",
+    "Country Code": "RUS",
+    "Number of threatened species*": 130
+  },
+  {
+    "Country Name": "Rwanda",
+    "Country Code": "RWA",
+    "Number of threatened species*": 51
+  },
+  {
+    "Country Name": "South Asia",
+    "Country Code": "SAS",
+    "Number of threatened species*": 902
+  },
+  {
+    "Country Name": "Saudi Arabia",
+    "Country Code": "SAU",
+    "Number of threatened species*": 70
+  },
+  {
+    "Country Name": "Sudan",
+    "Country Code": "SDN",
+    "Number of threatened species*": 74
+  },
+  {
+    "Country Name": "Senegal",
+    "Country Code": "SEN",
+    "Number of threatened species*": 96
+  },
+  {
+    "Country Name": "Singapore",
+    "Country Code": "SGP",
+    "Number of threatened species*": 65
+  },
+  {
+    "Country Name": "Solomon Islands",
+    "Country Code": "SLB",
+    "Number of threatened species*": 67
+  },
+  {
+    "Country Name": "Sierra Leone",
+    "Country Code": "SLE",
+    "Number of threatened species*": 95
+  },
+  {
+    "Country Name": "El Salvador",
+    "Country Code": "SLV",
+    "Number of threatened species*": 30
+  },
+  {
+    "Country Name": "San Marino",
+    "Country Code": "SMR",
+    "Number of threatened species*": 0
+  },
+  {
+    "Country Name": "Somalia",
+    "Country Code": "SOM",
+    "Number of threatened species*": 68
+  },
+  {
+    "Country Name": "Serbia",
+    "Country Code": "SRB",
+    "Number of threatened species*": 34
+  },
+  {
+    "Country Name": "Sub-Saharan Africa (excluding high income)",
+    "Country Code": "SSA",
+    "Number of threatened species*": 3941
+  },
+  {
+    "Country Name": "South Sudan",
+    "Country Code": "SSD",
+    "Number of threatened species*": 35
+  },
+  {
+    "Country Name": "Sub-Saharan Africa",
+    "Country Code": "SSF",
+    "Number of threatened species*": 4024
+  },
+  {
+    "Country Name": "Small states",
+    "Country Code": "SST",
+    "Number of threatened species*": 1998
+  },
+  {
+    "Country Name": "Sao Tome and Principe",
+    "Country Code": "STP",
+    "Number of threatened species*": 41
+  },
+  {
+    "Country Name": "Suriname",
+    "Country Code": "SUR",
+    "Number of threatened species*": 50
+  },
+  {
+    "Country Name": "Slovak Republic",
+    "Country Code": "SVK",
+    "Number of threatened species*": 21
+  },
+  {
+    "Country Name": "Slovenia",
+    "Country Code": "SVN",
+    "Number of threatened species*": 49
+  },
+  {
+    "Country Name": "Sweden",
+    "Country Code": "SWE",
+    "Number of threatened species*": 27
+  },
+  {
+    "Country Name": "Eswatini",
+    "Country Code": "SWZ",
+    "Number of threatened species*": 27
+  },
+  {
+    "Country Name": "Sint Maarten (Dutch part)",
+    "Country Code": "SXM",
+    "Number of threatened species*": 34
+  },
+  {
+    "Country Name": "Seychelles",
+    "Country Code": "SYC",
+    "Number of threatened species*": 43
+  },
+  {
+    "Country Name": "Syrian Arab Republic",
+    "Country Code": "SYR",
+    "Number of threatened species*": 82
+  },
+  {
+    "Country Name": "Turks and Caicos Islands",
+    "Country Code": "TCA",
+    "Number of threatened species*": 36
+  },
+  {
+    "Country Name": "Chad",
+    "Country Code": "TCD",
+    "Number of threatened species*": 33
+  },
+  {
+    "Country Name": "East Asia & Pacific (IDA & IBRD countries)",
+    "Country Code": "TEA",
+    "Number of threatened species*": 2628
+  },
+  {
+    "Country Name": "Europe & Central Asia (IDA & IBRD countries)",
+    "Country Code": "TEC",
+    "Number of threatened species*": 1098
+  },
+  {
+    "Country Name": "Togo",
+    "Country Code": "TGO",
+    "Number of threatened species*": 64
+  },
+  {
+    "Country Name": "Thailand",
+    "Country Code": "THA",
+    "Number of threatened species*": 227
+  },
+  {
+    "Country Name": "Tajikistan",
+    "Country Code": "TJK",
+    "Number of threatened species*": 27
+  },
+  {
+    "Country Name": "Turkmenistan",
+    "Country Code": "TKM",
+    "Number of threatened species*": 42
+  },
+  {
+    "Country Name": "Latin America & the Caribbean (IDA & IBRD countries)",
+    "Country Code": "TLA",
+    "Number of threatened species*": 2982
+  },
+  {
+    "Country Name": "Timor-Leste",
+    "Country Code": "TLS",
+    "Number of threatened species*": 24
+  },
+  {
+    "Country Name": "Middle East & North Africa (IDA & IBRD countries)",
+    "Country Code": "TMN",
+    "Number of threatened species*": 797
+  },
+  {
+    "Country Name": "Tonga",
+    "Country Code": "TON",
+    "Number of threatened species*": 23
+  },
+  {
+    "Country Name": "South Asia (IDA & IBRD)",
+    "Country Code": "TSA",
+    "Number of threatened species*": 902
+  },
+  {
+    "Country Name": "Sub-Saharan Africa (IDA & IBRD countries)",
+    "Country Code": "TSS",
+    "Number of threatened species*": 4024
+  },
+  {
+    "Country Name": "Trinidad and Tobago",
+    "Country Code": "TTO",
+    "Number of threatened species*": 44
+  },
+  {
+    "Country Name": "Tunisia",
+    "Country Code": "TUN",
+    "Number of threatened species*": 64
+  },
+  {
+    "Country Name": "Turkey",
+    "Country Code": "TUR",
+    "Number of threatened species*": 170
+  },
+  {
+    "Country Name": "Tuvalu",
+    "Country Code": "TUV",
+    "Number of threatened species*": 16
+  },
+  {
+    "Country Name": "Tanzania",
+    "Country Code": "TZA",
+    "Number of threatened species*": 269
+  },
+  {
+    "Country Name": "Uganda",
+    "Country Code": "UGA",
+    "Number of threatened species*": 121
+  },
+  {
+    "Country Name": "Ukraine",
+    "Country Code": "UKR",
+    "Number of threatened species*": 52
+  },
+  {
+    "Country Name": "Upper middle income",
+    "Country Code": "UMC",
+    "Number of threatened species*": 5382
+  },
+  {
+    "Country Name": "Uruguay",
+    "Country Code": "URY",
+    "Number of threatened species*": 77
+  },
+  {
+    "Country Name": "United States",
+    "Country Code": "USA",
+    "Number of threatened species*": 382
+  },
+  {
+    "Country Name": "Uzbekistan",
+    "Country Code": "UZB",
+    "Number of threatened species*": 36
+  },
+  {
+    "Country Name": "St. Vincent and the Grenadines",
+    "Country Code": "VCT",
+    "Number of threatened species*": 35
+  },
+  {
+    "Country Name": "Venezuela, RB",
+    "Country Code": "VEN",
+    "Number of threatened species*": 132
+  },
+  {
+    "Country Name": "British Virgin Islands",
+    "Country Code": "VGB",
+    "Number of threatened species*": 35
+  },
+  {
+    "Country Name": "Virgin Islands (U.S.)",
+    "Country Code": "VIR",
+    "Number of threatened species*": 33
+  },
+  {
+    "Country Name": "Vietnam",
+    "Country Code": "VNM",
+    "Number of threatened species*": 191
+  },
+  {
+    "Country Name": "Vanuatu",
+    "Country Code": "VUT",
+    "Number of threatened species*": 34
+  },
+  {
+    "Country Name": "Samoa",
+    "Country Code": "WSM",
+    "Number of threatened species*": 24
+  },
+  {
+    "Country Name": "Kosovo",
+    "Country Code": "XKX",
+    "Number of threatened species*": 0
+  },
+  {
+    "Country Name": "Yemen, Rep.",
+    "Country Code": "YEM",
+    "Number of threatened species*": 67
+  },
+  {
+    "Country Name": "South Africa",
+    "Country Code": "ZAF",
+    "Number of threatened species*": 205
+  },
+  {
+    "Country Name": "Zambia",
+    "Country Code": "ZMB",
+    "Number of threatened species*": 53
+  },
+  {
+    "Country Name": "Zimbabwe",
+    "Country Code": "ZWE",
+    "Number of threatened species*": 32
+  }
+]
