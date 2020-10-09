@@ -84,7 +84,7 @@
   "data": [
     {
       "name": "world",
-      "url": "data/world-110m.json",
+      "url": "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/world%20map%20file.json",
       "format": {
         "type": "topojson",
         "feature": "countries"
