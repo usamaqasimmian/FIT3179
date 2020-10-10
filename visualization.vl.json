@@ -1,90 +1,112 @@
+Vega
+Examples Tutorials Documentation Usage About
+GitHub Try Online
+World Map Example
+A configurable map of world countries. Explore the results of applying different map projections and parameter settings! This example loads TopoJSON data and applies the Vega geoshape and graticule transforms.
+
+background
+type
+mercator
+scale
+150
+rotate0
+0
+rotate1
+0
+rotate2
+0
+center0
+0
+center1
+0
+graticuleDash03510
+borderWidth
+1
+invert
+View in Online Vega Editor
+Vega JSON Specification <>
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "description": "An interactive world map supporting pan and zoom.",
+  "description": "A configurable map of countries of the world.",
   "width": 900,
   "height": 500,
   "autosize": "none",
 
   "signals": [
-    { "name": "tx", "update": "width / 2" },
-    { "name": "ty", "update": "height / 2" },
     {
-      "name": "scale",
-      "value": 150,
-      "on": [{
-        "events": {"type": "wheel", "consume": true},
-        "update": "clamp(scale * pow(1.0005, -event.deltaY * pow(16, event.deltaMode)), 150, 3000)"
-      }]
+      "name": "type",
+      "value": "mercator",
+      "bind": {
+        "input": "select",
+        "options": [
+          "albers",
+          "albersUsa",
+          "azimuthalEqualArea",
+          "azimuthalEquidistant",
+          "conicConformal",
+          "conicEqualArea",
+          "conicEquidistant",
+          "equalEarth",
+          "equirectangular",
+          "gnomonic",
+          "mercator",
+          "naturalEarth1",
+          "orthographic",
+          "stereographic",
+          "transverseMercator"
+        ]
+      }
     },
-    {
-      "name": "angles",
-      "value": [0, 0],
-      "on": [{
-        "events": "mousedown",
-        "update": "[rotateX, centerY]"
-      }]
-    },
-    {
-      "name": "cloned",
-      "value": null,
-      "on": [{
-        "events": "mousedown",
-        "update": "copy('projection')"
-      }]
-    },
-    {
-      "name": "start",
-      "value": null,
-      "on": [{
-        "events": "mousedown",
-        "update": "invert(cloned, xy())"
-      }]
-    },
-    {
-      "name": "drag", "value": null,
-      "on": [{
-        "events": "[mousedown, window:mouseup] > window:mousemove",
-        "update": "invert(cloned, xy())"
-      }]
-    },
-    {
-      "name": "delta", "value": null,
-      "on": [{
-        "events": {"signal": "drag"},
-        "update": "[drag[0] - start[0], start[1] - drag[1]]"
-      }]
-    },
-    {
-      "name": "rotateX", "value": 0,
-      "on": [{
-        "events": {"signal": "delta"},
-        "update": "angles[0] + delta[0]"
-      }]
-    },
-    {
-      "name": "centerY", "value": 0,
-      "on": [{
-        "events": {"signal": "delta"},
-        "update": "clamp(angles[1] + delta[1], -60, 60)"
-      }]
-    }
+    { "name": "scale", "value": 150,
+      "bind": {"input": "range", "min": 50, "max": 2000, "step": 1} },
+    { "name": "rotate0", "value": 0,
+      "bind": {"input": "range", "min": -180, "max": 180, "step": 1} },
+    { "name": "rotate1", "value": 0,
+      "bind": {"input": "range", "min": -90, "max": 90, "step": 1} },
+    { "name": "rotate2", "value": 0,
+      "bind": {"input": "range", "min": -180, "max": 180, "step": 1} },
+    { "name": "center0", "value": 0,
+      "bind": {"input": "range", "min": -180, "max": 180, "step": 1} },
+    { "name": "center1", "value": 0,
+      "bind": {"input": "range", "min": -90, "max": 90, "step": 1} },
+    { "name": "translate0", "update": "width / 2" },
+    { "name": "translate1", "update": "height / 2" },
+
+    { "name": "graticuleDash", "value": 0,
+      "bind": {"input": "radio", "options": [0, 3, 5, 10]} },
+    { "name": "borderWidth", "value": 1,
+      "bind": {"input": "text"} },
+    { "name": "background", "value": "#ffffff",
+      "bind": {"input": "color"} },
+    { "name": "invert", "value": false,
+      "bind": {"input": "checkbox"} }
   ],
 
   "projections": [
     {
       "name": "projection",
-      "type": "mercator",
+      "type": {"signal": "type"},
       "scale": {"signal": "scale"},
-      "rotate": [{"signal": "rotateX"}, 0, 0],
-      "center": [0, {"signal": "centerY"}],
-      "translate": [{"signal": "tx"}, {"signal": "ty"}]
+      "rotate": [
+        {"signal": "rotate0"},
+        {"signal": "rotate1"},
+        {"signal": "rotate2"}
+      ],
+      "center": [
+        {"signal": "center0"},
+        {"signal": "center1"}
+      ],
+      "translate": [
+        {"signal": "translate0"},
+        {"signal": "translate1"}
+      ]
     }
   ],
 
   "data": [
     {
       "name": "world",
-      "url": "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/world%20map%20file.json",
+      "url": "data/world-110m.json",
       "format": {
         "type": "topojson",
         "feature": "countries"
@@ -93,7 +115,7 @@
     {
       "name": "graticule",
       "transform": [
-        { "type": "graticule", "step": [15, 15] }
+        { "type": "graticule" }
       ]
     }
   ],
@@ -103,9 +125,10 @@
       "type": "shape",
       "from": {"data": "graticule"},
       "encode": {
-        "enter": {
+        "update": {
           "strokeWidth": {"value": 1},
-          "stroke": {"value": "#ddd"},
+          "strokeDash": {"signal": "[+graticuleDash, +graticuleDash]"},
+          "stroke": {"signal": "invert ? '#444' : '#ddd'"},
           "fill": {"value": null}
         }
       },
@@ -117,10 +140,16 @@
       "type": "shape",
       "from": {"data": "world"},
       "encode": {
-        "enter": {
-          "strokeWidth": {"value": 0.5},
-          "stroke": {"value": "#bbb"},
-          "fill": {"value": "#e5e8d3"}
+        "update": {
+          "strokeWidth": {"signal": "+borderWidth"},
+          "stroke": {"signal": "invert ? '#777' : '#bbb'"},
+          "fill": {"signal": "invert ? '#fff' : '#000'"},
+          "zindex": {"value": 0}
+        },
+        "hover": {
+          "strokeWidth": {"signal": "+borderWidth + 1"},
+          "stroke": {"value": "firebrick"},
+          "zindex": {"value": 1}
         }
       },
       "transform": [
