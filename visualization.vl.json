@@ -106,9 +106,9 @@ Vega JSON Specification <>
   "data": [
     {
       "name": "world",
-      "url": "data/world-110m.json",
+      "url": "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/custom.geo.json",
       "format": {
-        "type": "topojson",
+        "type": "geojson",
         "feature": "countries"
       }
     },
