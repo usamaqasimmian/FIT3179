@@ -3,14 +3,14 @@
   "width": 500,
   "height": 300,
   "data": {
-    "url": "world-110m.json",
+    "url": "https://github.com/usamaqasimmian/FIT3179/blob/main/world-110m.json",
     "format": {"type": "topojson", "feature": "counties"}
   },
   "transform": [
     {
       "lookup": "id",
       "from": {
-        "data": {"url": "threatenedspecies.csv"},
+        "data": {"url": "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/threatenedspecies.csv"},
         "key": "id",
         "fields": ["rate"]
       }
