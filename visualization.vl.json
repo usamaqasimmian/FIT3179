@@ -4,7 +4,7 @@
   "height": 300,
   "data": {
     "url": "https://github.com/usamaqasimmian/FIT3179/blob/main/world-110m.json",
-    "format": {"type": "topojson", "feature": "counties"}
+    "format": {"type": "topojson", "feature": "countries"}
   },
   "transform": [
     {
@@ -16,7 +16,7 @@
       }
     }
   ],
-  "projection": {"type": "albersUsa"},
+  "projection": {"type": "mercator"},
   "mark": "geoshape",
   "encoding": {"color": {"field": "rate", "type": "quantitative"}}
 }
