@@ -40,8 +40,8 @@ Chile,81
 China,305
 Cote d'Ivoire,115
 Cameroon,197
-"Congo, Dem. Rep.",168
-"Congo, Rep.",79
+Congo,168
+Republic of Congo,79
 Colombia,283
 Comoros,30
 Cabo Verde,46
@@ -51,7 +51,7 @@ Cuba,73
 Curacao,33
 Cayman Islands,35
 Cyprus,37
-Czech Republic,14
+Czechia,14
 Germany,40
 Djibouti,46
 Dominica,41
@@ -64,7 +64,7 @@ East Asia & Pacific,3788
 Europe & Central Asia (excluding high income),940
 Europe & Central Asia,2267
 Ecuador,214
-"Egypt, Arab Rep.",90
+Egypt,90
 Euro area,846
 Eritrea,65
 Spain,119
@@ -109,7 +109,7 @@ Isle of Man,2
 India,413
 Not classified,0
 Ireland,42
-"Iran, Islamic Rep.",93
+Iran,93
 Iraq,49
 Iceland,29
 Israel,83
@@ -119,11 +119,11 @@ Jordan,47
 Japan,155
 Kazakhstan,57
 Kenya,148
-Kyrgyz Republic,23
+Kyrgyzstan,23
 Cambodia,118
 Kiribati,22
 St. Kitts and Nevis,35
-"Korea, Rep.",73
+South Korea,73
 Kuwait,36
 Latin America & Caribbean (excluding high income),2683
 Lao PDR,129
@@ -190,7 +190,7 @@ Papua New Guinea,141
 Poland,23
 Pre-demographic dividend,3239
 Puerto Rico,45
-"Korea, Dem. People’s Rep.",59
+North Korea,59
 Portugal,95
 Paraguay,37
 West Bank and Gaza,21
@@ -199,7 +199,7 @@ Post-demographic dividend,2498
 French Polynesia,63
 Qatar,30
 Romania,48
-Russian Federation,130
+Russian,130
 Rwanda,51
 South Asia,902
 Saudi Arabia,70
@@ -213,12 +213,12 @@ San Marino,0
 Somalia,68
 Serbia,34
 Sub-Saharan Africa (excluding high income),3941
-South Sudan,35
+S. Sudan,35
 Sub-Saharan Africa,4024
 Small states,1998
 Sao Tome and Principe,41
 Suriname,50
-Slovak Republic,21
+Slovakia,21
 Slovenia,49
 Sweden,27
 Eswatini,27
@@ -248,17 +248,17 @@ Uganda,121
 Ukraine,52
 Upper middle income,5382
 Uruguay,77
-United States,382
+United States of America,382
 Uzbekistan,36
 St. Vincent and the Grenadines,35
-"Venezuela, RB",132
+Venezuela,132
 British Virgin Islands,35
 Virgin Islands (U.S.),33
 Vietnam,191
 Vanuatu,34
 Samoa,24
 Kosovo,0
-"Yemen, Rep.",67
+Yemen,67
 South Africa,205
 Zambia,53
 Zimbabwe,32
