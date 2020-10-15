@@ -1,18 +1,36 @@
 {
-  "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "width": 500,
-  "height": 300,
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "Number of Endangered Species per country",
+  "width": 800,
+  "height": 600,
+  "data": {
+    "url": "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/world-110m.json",
+    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+  },
   "transform": [
     {
-      "lookup": "Country",
+      "lookup": "properties.NAME",
       "from": {
-        "data": {"url": "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/threatenedspecies.csv"},
+        "data": {
+          "url": "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/threatenedspecies.csv"
+        },
         "key": "Country",
-        "fields": ["rate"]
+        "fields": ["Active"]
       }
-    }
+    },
+    {"calculate": "datum.Active + 0.1", "as": "Active Cases"}
   ],
-  "projection": {"type": "mercator"},
-  "mark": "geoshape",
-  "encoding": {"color": {"field": "rate", "type": "quantitative"}}
+  "projection": {"type": "equirectangular"},
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "Active Cases",
+      "type": "quantitative",
+      "scale": {"type": "log"}
+    },
+    "tooltip": [
+      {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+      {"field": "Active", "type": "quantitative"}
+    ]
+  }
 }
