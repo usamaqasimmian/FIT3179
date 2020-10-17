@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "background" : "rgb(255,247,238)",
   "width": 800,
   "height": 400,
+  "background" : "rgb(255,247,238)",
   "data": {
     "url": "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/ne_110m_admin_0_countries.topojson",
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
@@ -26,10 +26,9 @@
     "color": {
       "field": "number",
       "type": "quantitative",
-      "scale": {"type": "ordinal",
-      "domain" : [0,1000],
-      "range" : ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
-      }
+      "scale": {"type": "point",
+      "domain" : [0,100,200,300,400,500,600,700,800,900,1000]
+}
     },
     "tooltip": [
       {"field": "properties.NAME", "type": "nominal", "title": "Country"},
