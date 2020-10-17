@@ -4,7 +4,6 @@ Afghanistan,31
 Angola,103
 Albania,55
 Andorra,5
-Arab World,1239
 United Arab Emirates,41
 Argentina,132
 Armenia,26
@@ -58,11 +57,6 @@ Dominica,41
 Denmark,29
 Dominican Republic,53
 Algeria,70
-East Asia & Pacific (excluding high income),2662
-Early-demographic dividend,5801
-East Asia & Pacific,3788
-Europe & Central Asia (excluding high income),940
-Europe & Central Asia,2267
 Ecuador,214
 Egypt,90
 Euro area,846
@@ -70,8 +64,6 @@ Eritrea,65
 Spain,119
 Estonia,15
 Ethiopia,83
-European Union,1146
-Fragile and conflict affected situations,2577
 Finland,19
 Fiji,41
 France,78
@@ -92,19 +84,12 @@ Greenland,24
 Guatemala,73
 Guam,31
 Guyana,60
-High income,4189
 "Hong Kong SAR, China",40
 Honduras,67
-Heavily indebted poor countries (HIPC),3284
 Croatia,87
 Haiti,51
 Hungary,25
-IBRD only,7184
-IDA & IBRD total,12431
-IDA total,5247
-IDA blend,1123
 Indonesia,517
-IDA only,4124
 Isle of Man,2
 India,413
 Not classified,0
@@ -125,21 +110,14 @@ Kiribati,22
 St. Kitts and Nevis,35
 South Korea,73
 Kuwait,36
-Latin America & Caribbean (excluding high income),2683
 Lao PDR,129
 Lebanon,49
 Liberia,102
 Libya,50
 St. Lucia,39
-Latin America & Caribbean,3462
-Least developed countries: UN classification,3573
-Low income,2150
 Liechtenstein,2
 Sri Lanka,103
-Lower middle income,4414
-Low & middle income,11946
 Lesotho,13
-Late-demographic dividend,3889
 Lithuania,18
 Luxembourg,4
 Latvia,18
@@ -195,7 +173,6 @@ Portugal,95
 Paraguay,37
 West Bank and Gaza,21
 Pacific island small states,338
-Post-demographic dividend,2498
 French Polynesia,63
 Qatar,30
 Romania,48
@@ -212,10 +189,7 @@ El Salvador,30
 San Marino,0
 Somalia,68
 Serbia,34
-Sub-Saharan Africa (excluding high income),3941
 S. Sudan,35
-Sub-Saharan Africa,4024
-Small states,1998
 Sao Tome and Principe,41
 Suriname,50
 Slovakia,21
@@ -227,18 +201,14 @@ Seychelles,43
 Syrian Arab Republic,82
 Turks and Caicos Islands,36
 Chad,33
-East Asia & Pacific (IDA & IBRD countries),2628
-Europe & Central Asia (IDA & IBRD countries),1098
 Togo,64
 Thailand,227
 Tajikistan,27
 Turkmenistan,42
-Latin America & the Caribbean (IDA & IBRD countries),2982
 Timor-Leste,24
 Middle East & North Africa (IDA & IBRD countries),797
 Tonga,23
 South Asia (IDA & IBRD),902
-Sub-Saharan Africa (IDA & IBRD countries),4024
 Trinidad and Tobago,44
 Tunisia,64
 Turkey,170
@@ -246,7 +216,6 @@ Tuvalu,16
 Tanzania,269
 Uganda,121
 Ukraine,52
-Upper middle income,5382
 Uruguay,77
 United States of America,382
 Uzbekistan,36
