@@ -1,6 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "background" : "rgb(255,247,238)",
   "width": 800,
   "height": 400,
   "data": {
@@ -26,10 +25,7 @@
     "color": {
       "field": "number",
       "type": "quantitative",
-      "scale": {"type": "ordinal",
-      "domain" : [0,1000],
-      "range" : ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
-      }
+      "scale": {"type": "ordinal"}
     },
     "tooltip": [
       {"field": "properties.NAME", "type": "nominal", "title": "Country"},
