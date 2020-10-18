@@ -2,7 +2,8 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
     "background" : "rgb(255,247,238)",
     "padding" : 0,
-    "width" : 400,
+    "width" : 300,
+    "height" : 250,
     "description": "Stock prices of 5 Tech Companies over Time.",
     "data": {"url": "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/yearwise.csv"},
     "mark": {
