@@ -1,21 +1,74 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "background" : "rgb(255,247,238)",
-    "padding" : 0,
-    "width" : 300,
-    "height" : 250,
-    "description": "Stock prices of 5 Tech Companies over Time.",
-    "data": {"url": "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/yearwise.csv"},
-    "mark": {
-      "type": "line",
-      "point": {
-        "filled": false,
-        "fill": "white"
-      }
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/yearwise.csv"
+  },
+  "width": 400,
+  "height": 300,
+  "layer": [
+    {
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal","title" : "Year"},
+        "y": {"aggregate":"sum","field": "Count", "type":"quantitative","title": "Number of Species"},
+        "color": {"field": "Type", "type": "nominal"}
+      },
+      "layer": [
+        {"mark": "line"},
+        {
+          "selection": {
+            "label": {
+              "type": "single",
+              "nearest": true,
+              "on": "mouseover",
+              "encodings": ["x"],
+              "empty": "none"
+            }
+          },
+          "mark": "point",
+          "encoding": {
+            "opacity": {
+              "condition": {"selection": "label", "value": 1},
+              "value": 0
+            }
+          }
+        }
+      ]
     },
-    "encoding": {
-      "x": {"field": "Year", "type" :"temporal"},
-      "y": {"aggregate":"sum", "field": "Count", "type": "quantitative","title": "Number of Species"},
-      "color": {"field": "Type", "type": "nominal"}
+    {
+      "transform": [{"filter": {"selection": "label"}}],
+      "layer": [
+        {
+          "mark": {"type": "rule", "color": "gray"},
+          "encoding": {
+            "x": {"type": "temporal", "field": "Year", "aggregate": "min"}
+          }
+        },
+        {
+          "encoding": {
+            "text": {"type": "quantitative", "field": "Count"},
+            "x": {"type": "temporal", "field": "Year"},
+            "y": {"type": "quantitative", "field": "Count"}
+          },
+          "layer": [
+            {
+              "mark": {
+                "type": "text",
+                "stroke": "white",
+                "strokeWidth": 2,
+                "align": "left",
+                "dx": 5,
+                "dy": -5
+              }
+            },
+            {
+              "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5},
+              "encoding": {
+                "color": {"type": "nominal", "field": "symbol"}
+              }
+            }
+          ]
+        }
+      ]
     }
-  }
+  ]
+}
