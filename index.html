@@ -92,13 +92,14 @@
 
     <!-- pure grid group -->
     <div class="pure-g">
-        <div class="pure-u-2-3">
-          <div id="vis2"  class="vis-container"></div>
+        <div class="pure-u-3-5">
+          <div id="vis2"class="vis-container"></div>
         </div>
-        <div class="pure-u-1-3">
+        <div class="pure-u-2-5">
           <div class="description description-right">
-            <h2>Types of Species Endangered</h2>
-            <p>This isotype shows what percentage of animals are Endangered in their species</p>
+            <h2>Trends of species being endangered</h2>
+            <p>This line chart shows how the number of species are being endangered with time</p>
+            <img id ="whaleimg"src="whale.jpg" alt="animals">
           </div>
         </div>
       
@@ -136,10 +137,11 @@
   var spec = "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/visualization.vl.json";
     vegaEmbed('#vis', spec).then(function(result) {
     }).catch(console.error);
-  
-   vegaEmbed('#vis2', specVis2, {"actions": false}).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
+
+    var specVis2 = "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/line_chart.json"
+   vegaEmbed('#vis2', specVis2).then(function(result) {
+    }).catch(console.error);
+
 
   vegaEmbed('#vis3', specVis1, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
