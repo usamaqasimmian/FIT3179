@@ -1,12 +1,45 @@
-﻿Year,Vertebrates,Invertebrates,Plants,Fungi and Protists
-2020,9316,5419,"17,507",32441
-2019,9013,5221,"15,774",30178
-2018,8442,5040,13299,26840
-2017,8374,4893,12505,25821
-2016,8160,4470,11643,24301
-2015,7781,4201,11233,23250
-2014,7678,4140,10584,22413
-2013,7390,3822,10065,21286
-2012,7250,3570,9360,20219
-2011,7108,3297,9156,19570
-2010,6174,2904,8724,18351
+﻿Type,Year,Count
+Vertebrates,2020,9316
+Vertebrates,2019,9013
+Vertebrates,2018,8442
+Vertebrates,2017,8374
+Vertebrates,2016,8160
+Vertebrates,2015,7781
+Vertebrates,2014,7678
+Vertebrates,2013,7390
+Vertebrates,2012,7250
+Vertebrates,2011,7108
+Vertebrates,2010,6174
+Invertebrates,2020,5419
+Invertebrates,2019,5221
+Invertebrates,2018,5040
+Invertebrates,2017,4893
+Invertebrates,2016,4470
+Invertebrates,2015,4201
+Invertebrates,2014,4140
+Invertebrates,2013,3822
+Invertebrates,2012,3570
+Invertebrates,2011,3297
+Invertebrates,2010,2904
+Plants,2020,"17,507"
+Plants,2019,"15,774"
+Plants,2018,13299
+Plants,2017,12505
+Plants,2016,11643
+Plants,2015,11233
+Plants,2014,10584
+Plants,2013,10065
+Plants,2012,9360
+Plants,2011,9156
+Plants,2010,8724
+Fungi and Protists,2020,32441
+Fungi and Protists,2019,30178
+Fungi and Protists,2018,26840
+Fungi and Protists,2017,25821
+Fungi and Protists,2016,24301
+Fungi and Protists,2015,23250
+Fungi and Protists,2014,22413
+Fungi and Protists,2013,21286
+Fungi and Protists,2012,20219
+Fungi and Protists,2011,19570
+Fungi and Protists,2010,18351
