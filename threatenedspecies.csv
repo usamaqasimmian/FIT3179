@@ -1,4 +1,4 @@
-﻿Country,rate,Economy
+﻿Country,Number of threatened Species,Economy
 Aruba,28,Poor
 Afghanistan,31,Poor
 Antarctica,39,Poor
@@ -40,8 +40,8 @@ Chile,81,Poor
 China,305,Poor
 Cote d'Ivoire,115,Poor
 Cameroon,197,Poor
-Congo,168,Poor
-Republic of Congo,79,Poor
+Democratic Republic of the Congo,168,Poor
+Republic of the Congo,79,Poor
 Colombia,283,Poor
 Comoros,30,Poor
 Cabo Verde,46,Poor
