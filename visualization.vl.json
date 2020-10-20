@@ -24,10 +24,9 @@
   "mark": {"type": "geoshape"},
   "encoding": {
     "color": {
-      "field": "number",
+      "field": "rate",
       "type": "quantitative",
-      "scale": {"type": "point",
-      "domain" : [0,100,200,300,400,500,600,700,800,900,1000]
+      "scale": {"type": "ordinal"
 }
     },
     "tooltip": [
