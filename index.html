@@ -129,6 +129,22 @@
         </div>
     </div>
 
+    <div class="pure-g">
+      <div class="pure-u">
+          <b>Whale Populations 1890 to 2001</b>
+          <p>These bar charts show how whale populations are decimated, the chart shows that if 100 whales lived in 1890 how much are left from that in 2001</p>
+        </div>   
+  </div>
+
+
+    <div class="pure-g">
+        <div class="pure-u">
+          <div id="vis4" class="vis-container"></div>
+        </div>
+    </div>
+
+
+
   
     <div class="pure-g">
       <div class="pure-u-1-1 small-font">
@@ -151,6 +167,10 @@
 
 var specVis3 = "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/scatterplot.json"
 vegaEmbed('#vis3', specVis3).then(function(result) {
+    }).catch(console.error);
+
+    var specVis4 = "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/whalepopulation.json"
+vegaEmbed('#vis4', specVis4).then(function(result) {
     }).catch(console.error);
 
 </script>
