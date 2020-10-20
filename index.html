@@ -121,9 +121,6 @@
         </div>
       </div>
       <div class="pure-u-1-3">
-        <div id="vis4"  class="vis-container"></div>
-      </div>
-      <div class="pure-u-1-3">
         <div id="vis3"  class="vis-container"></div>
       </div>
     
@@ -149,14 +146,10 @@
    vegaEmbed('#vis2', specVis2).then(function(result) {
     }).catch(console.error);
 
+var specVis3 = "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/scatterplot.json"
+vegaEmbed('#vis3', specVis3).then(function(result) {
+    }).catch(console.error);
 
-  vegaEmbed('#vis3', specVis1, {"actions": false}).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-
-  vegaEmbed('#vis4', specVis2, {"actions": false}).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
 </script>
 </body>
 </html>
