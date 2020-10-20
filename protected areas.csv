@@ -1,6 +1,6 @@
-Country,2016,2017,Protected Area (%)
+Country,2016,rate,Protected Area (%)
 Aruba,0.53,18.92,18.92
-Afghanistan,0.10,0.10,0.10
+Afghanistan,0.1,0.1,0.1
 Angola,6.97,6.97,6.97
 Albania,17.21,17.74,17.74
 Andorra,21.19,26.73,26.73
@@ -11,17 +11,17 @@ Armenia,23.11,23.11,23.11
 American Samoa,4.27,15.85,15.85
 Antigua and Barbuda,19.33,18.57,18.57
 Australia,16.98,19.27,19.27
-Austria,28.44,28.40,28.40
+Austria,28.44,28.4,28.4
 Azerbaijan,10.15,10.16,10.16
 Burundi,7.59,7.59,7.59
 Belgium,23.21,23.29,23.29
 Benin,28.87,29.62,29.62
 Burkina Faso,15.08,14.92,14.92
 Bangladesh,4.61,4.61,4.61
-Bulgaria,34.69,34.70,34.70
-Bahrain,6.70,6.62,6.62
-"Bahamas, The",31.20,36.63,36.63
-Bosnia and Herzegovina,1.45,1.40,1.40
+Bulgaria,34.69,34.7,34.7
+Bahrain,6.7,6.62,6.62
+"Bahamas, The",31.2,36.63,36.63
+Bosnia and Herzegovina,1.45,1.4,1.4
 Belarus,9.51,9.35,9.35
 Belize,37.68,37.68,37.68
 Bermuda,5.52,2.08,2.08
@@ -36,16 +36,16 @@ Canada,9.69,9.69,9.69
 Central Europe and the Baltics,30.07,30.17,30.17
 Switzerland,9.65,9.67,9.67
 Channel Islands,,,
-Chile,18.40,18.49,18.49
+Chile,18.4,18.49,18.49
 China,17.08,15.45,15.45
 Cote d'Ivoire,22.88,22.88,22.88
-Cameroon,10.60,10.60,10.60
-"Congo, Dem. Rep.",12.70,13.83,13.83
+Cameroon,10.6,10.6,10.6
+"Congo, Dem. Rep.",12.7,13.83,13.83
 "Congo, Rep.",40.59,40.74,40.74
 Colombia,14.16,14.81,14.81
 Comoros,10.17,10.15,10.15
-Cabo Verde,2.60,2.90,2.90
-Costa Rica,27.60,27.60,27.60
+Cabo Verde,2.6,2.9,2.9
+Costa Rica,27.6,27.6,27.6
 Caribbean small states,13.65,13.82,13.82
 Cuba,16.55,16.55,16.55
 Curacao,15.52,15.46,15.46
@@ -55,25 +55,25 @@ Czechia,21.69,22.16,22.16
 Germany,37.68,37.75,37.75
 Djibouti,1.57,1.57,1.57
 Dominica,22.06,21.99,21.99
-Denmark,17.56,18.10,18.10
+Denmark,17.56,18.1,18.1
 Dominican Republic,23.02,26.24,26.24
-Algeria,7.50,7.50,7.50
+Algeria,7.5,7.5,7.5
 East Asia & Pacific (excluding high income),15.49,14.56,14.56
 Early-demographic dividend,12.78,12.67,12.67
 East Asia & Pacific,16.22,16.48,16.48
-Europe & Central Asia (excluding high income),8.38,8.40,8.40
+Europe & Central Asia (excluding high income),8.38,8.4,8.4
 Europe & Central Asia,11.64,11.67,11.67
 Ecuador,20.03,21.69,21.69
 "Egypt, Arab Rep.",13.14,13.14,13.14
-Euro area,25.79,25.80,25.80
+Euro area,25.79,25.8,25.8
 Eritrea,4.87,4.87,4.87
 Spain,28.02,28.07,28.07
 Estonia,20.18,20.22,20.22
 Ethiopia,18.47,18.47,18.47
-European Union,25.70,25.78,25.78
+European Union,25.7,25.78,25.78
 Fragile and conflict affected situations,13.47,14.11,14.11
 Finland,14.94,15.02,15.02
-Fiji,5.40,5.41,5.41
+Fiji,5.4,5.41,5.41
 France,26.03,25.79,25.79
 Faroe Islands,2.34,2.33,2.33
 "Micronesia, Fed. Sts.",4.28,0.05,0.05
@@ -93,12 +93,12 @@ Guatemala,31.75,20.05,20.05
 Guam,21.92,22.47,22.47
 Guyana,8.74,8.74,8.74
 High income,14.49,15.13,15.13
-"Hong Kong SAR, China",41.90,41.88,41.88
+"Hong Kong SAR, China",41.9,41.88,41.88
 Honduras,28.44,23.89,23.89
 Heavily indebted poor countries (HIPC),17.32,18.19,18.19
 Croatia,38.11,38.25,38.25
 Haiti,0.27,1.95,1.95
-Hungary,22.60,22.60,22.60
+Hungary,22.6,22.6,22.6
 IBRD only,14.66,14.47,14.47
 IDA & IBRD total,14.73,14.72,14.72
 IDA total,14.96,15.55,15.55
@@ -118,18 +118,18 @@ Jordan,1.73,1.77,1.77
 Japan,19.36,29.39,29.39
 Kazakhstan,3.28,3.31,3.31
 Kenya,12.36,12.36,12.36
-Kyrgyz Republic,6.51,6.70,6.70
+Kyrgyz Republic,6.51,6.7,6.7
 Cambodia,26.03,26.03,26.03
 Kiribati,22.37,22.36,22.36
 St. Kitts and Nevis,3.32,3.32,3.32
 "Korea, Rep.",11.23,11.67,11.67
-Kuwait,17.50,17.50,17.50
+Kuwait,17.5,17.5,17.5
 Latin America & Caribbean (excluding high income),23.48,23.85,23.85
 Lao PDR,16.68,16.68,16.68
-Lebanon,2.59,2.60,2.60
+Lebanon,2.59,2.6,2.6
 Liberia,2.49,4.05,4.05
 Libya,0.21,0.21,0.21
-St. Lucia,18.80,18.75,18.75
+St. Lucia,18.8,18.75,18.75
 Latin America & Caribbean,23.11,23.46,23.46
 Least developed countries: UN classification,14.51,15.26,15.26
 Low income,12.91,13.94,13.94
@@ -145,12 +145,12 @@ Latvia,18.17,18.17,18.17
 "Macao SAR, China",,,
 St. Martin (French part),16.78,12.77,12.77
 Morocco,30.81,30.78,30.78
-Monaco,62.50,33.16,33.16
+Monaco,62.5,33.16,33.16
 Moldova,4.15,4.15,4.15
 Madagascar,5.25,5.59,5.59
 Maldives,0.98,1.21,1.21
 Middle East & North Africa,6.59,6.72,6.72
-Mexico,14.27,14.50,14.50
+Mexico,14.27,14.5,14.5
 Marshall Islands,12.06,11.92,11.92
 Middle income,14.85,14.67,14.67
 North Macedonia,9.65,9.65,9.65
@@ -158,8 +158,8 @@ Mali,8.23,8.23,8.23
 Malta,23.69,30.29,30.29
 Myanmar,7.17,6.37,6.37
 Middle East & North Africa (excluding high income),7.17,7.17,7.17
-Montenegro,4.06,6.40,6.40
-Mongolia,17.40,17.71,17.71
+Montenegro,4.06,6.4,6.4
+Mongolia,17.4,17.71,17.71
 Northern Mariana Islands,7.58,7.67,7.67
 Mozambique,21.59,21.59,21.59
 Mauritania,0.62,0.62,0.62
@@ -168,7 +168,7 @@ Malawi,16.89,22.88,22.88
 Malaysia,19.14,19.12,19.12
 North America,11.32,11.32,11.32
 Namibia,37.89,37.89,37.89
-New Caledonia,54.41,54.40,54.40
+New Caledonia,54.41,54.4,54.4
 Niger,17.32,17.32,17.32
 Nigeria,13.93,13.93,13.93
 Nicaragua,37.23,37.23,37.23
@@ -184,16 +184,16 @@ Pakistan,12.31,12.31,12.31
 Panama,20.89,20.89,20.89
 Peru,21.27,21.31,21.31
 Philippines,15.32,15.32,15.32
-Palau,27.94,28.00,28.00
+Palau,27.94,28,28
 Papua New Guinea,3.07,3.07,3.07
 Poland,39.62,39.65,39.65
 Pre-demographic dividend,14.96,15.76,15.76
 Puerto Rico,7.44,7.27,7.27
 "Korea, Dem. People’s Rep.",2.44,2.44,2.44
-Portugal,22.96,22.90,22.90
+Portugal,22.96,22.9,22.9
 Paraguay,6.51,14.31,14.31
 West Bank and Gaza,,8.36,8.36
-Pacific island small states,4.32,4.30,4.30
+Pacific island small states,4.32,4.3,4.3
 Post-demographic dividend,14.32,14.98,14.98
 French Polynesia,1.96,1.95,1.95
 Qatar,2.45,13.23,13.23
@@ -212,17 +212,17 @@ San Marino,,,
 Somalia,0.83,0.83,0.83
 Serbia,6.15,6.61,6.61
 Sub-Saharan Africa (excluding high income),17.31,17.72,17.72
-S. Sudan,15.50,15.50,15.50
+S. Sudan,15.5,15.5,15.5
 Sub-Saharan Africa,17.31,17.72,17.72
-Small states,25.84,26.20,26.20
+Small states,25.84,26.2,26.2
 Sao Tome and Principe,29.21,29.26,29.26
 Suriname,14.52,14.52,14.52
 Slovakia,37.28,37.63,37.63
 Slovenia,53.64,53.62,53.62
 Sweden,14.47,14.88,14.88
-Eswatini,4.10,4.23,4.23
-Sint Maarten (Dutch part),,0.00,0.00
-Seychelles,42.10,42.09,42.09
+Eswatini,4.1,4.23,4.23
+Sint Maarten (Dutch part),,0,0
+Seychelles,42.1,42.09,42.09
 Syrian Arab Republic,0.69,0.69,0.69
 Turks and Caicos Islands,44.39,44.37,44.37
 Chad,20.35,20.35,20.35
@@ -232,21 +232,21 @@ Togo,27.62,27.62,27.62
 Thailand,18.81,18.81,18.81
 Tajikistan,22.28,22.28,22.28
 Turkmenistan,3.25,3.25,3.25
-Latin America & the Caribbean (IDA & IBRD countries),23.15,23.50,23.50
+Latin America & the Caribbean (IDA & IBRD countries),23.15,23.5,23.5
 Timor-Leste,13.05,13.06,13.06
 Middle East & North Africa (IDA & IBRD countries),7.17,7.17,7.17
 Tonga,15.92,15.91,15.91
 South Asia (IDA & IBRD),7.29,7.29,7.29
 Sub-Saharan Africa (IDA & IBRD countries),17.31,17.72,17.72
-Trinidad and Tobago,30.60,30.59,30.59
+Trinidad and Tobago,30.6,30.59,30.59
 Tunisia,7.91,7.91,7.91
 Turkey,0.22,0.22,0.22
 Tuvalu,2.39,1.95,1.95
 Tanzania,38.12,38.15,38.15
 Uganda,16.06,16.06,16.06
 Ukraine,3.96,3.99,3.99
-Upper middle income,15.04,14.80,14.80
-Uruguay,3.50,3.45,3.45
+Upper middle income,15.04,14.8,14.8
+Uruguay,3.5,3.45,3.45
 United States of America,12.97,12.99,12.99
 Uzbekistan,3.38,3.38,3.38
 St. Vincent and the Grenadines,22.44,22.42,22.42
@@ -254,11 +254,11 @@ St. Vincent and the Grenadines,22.44,22.42,22.42
 British Virgin Islands,8.54,9.11,9.11
 Virgin Islands (U.S.),14.64,13.79,13.79
 Vietnam,7.58,7.58,7.58
-Vanuatu,4.20,4.20,4.20
+Vanuatu,4.2,4.2,4.2
 World,14.56,14.73,14.73
 Samoa,6.77,7.35,7.35
 Kosovo,,,
 "Yemen, Rep.",0.77,0.77,0.77
-South Africa,14.13,8.00,8.00
+South Africa,14.13,8,8
 Zambia,38.05,37.87,37.87
 Zimbabwe,27.21,27.21,27.21
