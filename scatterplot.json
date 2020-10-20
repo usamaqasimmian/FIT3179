@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "background" : "rgb(255,247,238)",
   "repeat": {
     "row": ["Count"],
     "column": ["CO2 Emissions (gigatonnes)", "Temperature Increase ( C )", "Rise in sea levels (mm)"]
