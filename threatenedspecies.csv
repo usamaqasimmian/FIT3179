@@ -1,221 +1,220 @@
-﻿Country,rate
-Aruba,28
-Afghanistan,31
-Antarctica,39
-Angola,103
-Albania,55
-Andorra,5
-United Arab Emirates,41
-Argentina,132
-Armenia,26
-American Samoa,21
-Antigua and Barbuda,36
-Australia,240
-Austria,27
-Azerbaijan,39
-Burundi,46
-Belgium,23
-Benin,65
-Burkina Faso,25
-Bangladesh,102
-Bulgaria,47
-Bahrain,24
-"Bahamas, The",58
-Bosnia and Herzegovina,47
-Belarus,15
-Belize,61
-Bermuda,34
-Bolivia,84
-Brazil,348
-Barbados,36
-Brunei Darussalam,78
-Bhutan,49
-Botswana,29
-Central African Republic,35
-Canada,86
-Central Europe and the Baltics,365
-Switzerland,21
-Channel Islands,0
-Chile,81
-China,305
-Cote d'Ivoire,115
-Cameroon,197
-Congo,168
-Republic of Congo,79
-Colombia,283
-Comoros,30
-Cabo Verde,46
-Costa Rica,102
-Cuba,73
-Curacao,33
-Cayman Islands,35
-Cyprus,37
-Czechia,14
-Germany,40
-Djibouti,46
-Dominica,41
-Denmark,29
-Dominican Republic,53
-Algeria,70
-Ecuador,214
-Egypt,90
-Eritrea,65
-Spain,119
-Estonia,15
-Ethiopia,83
-Finland,19
-Fiji,41
-France,78
-Faroe Islands,23
-"Micronesia, Fed. Sts.",42
-Gabon,97
-United Kingdom,64
-Georgia,34
-Ghana,102
-Gibraltar,27
-Guinea,126
-"Gambia, The",59
-Guinea-Bissau,67
-Equatorial Guinea,73
-Greece,107
-Grenada,34
-Greenland,24
-Guatemala,73
-Guam,31
-Guyana,60
-"Hong Kong SAR, China",40
-Honduras,67
-Croatia,87
-Haiti,51
-Hungary,25
-Indonesia,517
-Isle of Man,2
-India,413
-Not classified,0
-Ireland,42
-Iran,93
-Iraq,49
-Iceland,29
-Israel,83
-Italy,77
-Jamaica,48
-Jordan,47
-Japan,155
-Kazakhstan,57
-Kenya,148
-Kyrgyzstan,23
-Cambodia,118
-Kiribati,22
-St. Kitts and Nevis,35
-South Korea,73
-Kuwait,36
-Lao PDR,129
-Lebanon,49
-Liberia,102
-Libya,50
-St. Lucia,39
-Liechtenstein,2
-Sri Lanka,103
-Lesotho,13
-Lithuania,18
-Luxembourg,4
-Latvia,18
-"Macao SAR, China",13
-St. Martin (French part),34
-Morocco,90
-Monaco,18
-Moldova,23
-Madagascar,269
-Maldives,26
-Mexico,348
-Marshall Islands,23
-North Macedonia,32
-Mali,33
-Malta,29
-Myanmar,158
-Montenegro,51
-Mongolia,37
-Northern Mariana Islands,34
-Mozambique,119
-Mauritania,82
-Mauritius,40
-Malawi,65
-Malaysia,221
-Namibia,80
-New Caledonia,63
-Niger,30
-Nigeria,126
-Nicaragua,64
-Netherlands,28
-Norway,42
-Nepal,74
-Nauru,15
-New Zealand,116
-Oman,59
-Pakistan,104
-Panama,99
-Peru,224
-Philippines,222
-Palau,31
-Papua New Guinea,141
-Poland,23
-Puerto Rico,45
-North Korea,59
-Portugal,95
-Paraguay,37
-West Bank and Gaza,21
-French Polynesia,63
-Qatar,30
-Romania,48
-Russia,130
-Rwanda,51
-Saudi Arabia,70
-Sudan,74
-Senegal,96
-Singapore,65
-Solomon Islands,67
-Sierra Leone,95
-El Salvador,30
-San Marino,0
-Somalia,68
-Serbia,34
-S. Sudan,35
-Sao Tome and Principe,41
-Suriname,50
-Slovakia,21
-Slovenia,49
-Sweden,27
-Eswatini,27
-Sint Maarten (Dutch part),34
-Seychelles,43
-Syrian Arab Republic,82
-Turks and Caicos Islands,36
-Chad,33
-Togo,64
-Thailand,227
-Tajikistan,27
-Turkmenistan,42
-Timor-Leste,24
-Tonga,23
-Trinidad and Tobago,44
-Tunisia,64
-Turkey,170
-Tuvalu,16
-Tanzania,269
-Uganda,121
-Ukraine,52
-Uruguay,77
-United States of America,382
-Uzbekistan,36
-St. Vincent and the Grenadines,35
-Venezuela,132
-British Virgin Islands,35
-Virgin Islands (U.S.),33
-Vietnam,191
-Vanuatu,34
-Samoa,24
-Kosovo,0
-Yemen,67
-South Africa,205
-Zambia,53
-Zimbabwe,32
+﻿Country,rate,Economy
+Aruba,28,Poor
+Afghanistan,31,Poor
+Antarctica,39,Poor
+Angola,103,Poor
+Albania,55,Poor
+Andorra,5,Rich
+United Arab Emirates,41,Rich
+Argentina,132,Poor
+Armenia,26,Poor
+American Samoa,21,Rich
+Antigua and Barbuda,36,Poor
+Australia,240,Rich
+Austria,27,Rich
+Azerbaijan,39,Poor
+Burundi,46,Poor
+Belgium,23,Rich
+Benin,65,Poor
+Burkina Faso,25,Poor
+Bangladesh,102,Poor
+Bulgaria,47,Poor
+Bahrain,24,Rich
+"Bahamas, The",58,Poor
+Bosnia and Herzegovina,47,Poor
+Belarus,15,Poor
+Belize,61,Poor
+Bermuda,34,Poor
+Bolivia,84,Poor
+Brazil,348,Poor
+Barbados,36,Poor
+Brunei Darussalam,78,Rich
+Bhutan,49,Poor
+Botswana,29,Poor
+Central African Republic,35,Poor
+Canada,86,Rich
+Central Europe and the Baltics,365,Poor
+Switzerland,21,Rich
+Channel Islands,0,Poor
+Chile,81,Poor
+China,305,Poor
+Cote d'Ivoire,115,Poor
+Cameroon,197,Poor
+Congo,168,Poor
+Republic of Congo,79,Poor
+Colombia,283,Poor
+Comoros,30,Poor
+Cabo Verde,46,Poor
+Costa Rica,102,Poor
+Cuba,73,Poor
+Curacao,33,Poor
+Cayman Islands,35,Poor
+Cyprus,37,Rich
+Czechia,14,Rich
+Germany,40,Rich
+Djibouti,46,Poor
+Dominica,41,Poor
+Denmark,29,Rich
+Dominican Republic,53,Poor
+Algeria,70,Poor
+Ecuador,214,Poor
+Egypt,90,Poor
+Eritrea,65,Poor
+Spain,119,Rich
+Estonia,15,Rich
+Ethiopia,83,Poor
+Finland,19,Rich
+Fiji,41,Poor
+France,78,Rich
+Faroe Islands,23,Poor
+"Micronesia, Fed. Sts.",42,Poor
+Gabon,97,Poor
+United Kingdom,64,Rich
+Georgia,34,Poor
+Ghana,102,Poor
+Gibraltar,27,Poor
+Guinea,126,Poor
+"Gambia, The",59,Poor
+Guinea-Bissau,67,Poor
+Equatorial Guinea,73,Poor
+Greece,107,Rich
+Grenada,34,Poor
+Greenland,24,Rich
+Guatemala,73,Poor
+Guam,31,Poor
+Guyana,60,Poor
+"Hong Kong SAR, China",40,Rich
+Honduras,67,Poor
+Croatia,87,Rich
+Haiti,51,Poor
+Hungary,25,Poor
+Indonesia,517,Poor
+Isle of Man,2,Rich
+India,413,Poor
+Ireland,42,Rich
+Iran,93,Poor
+Iraq,49,Poor
+Iceland,29,Rich
+Israel,83,Rich
+Italy,77,Rich
+Jamaica,48,Poor
+Jordan,47,Poor
+Japan,155,Rich
+Kazakhstan,57,Poor
+Kenya,148,Poor
+Kyrgyzstan,23,Poor
+Cambodia,118,Poor
+Kiribati,22,Poor
+St. Kitts and Nevis,35,Poor
+South Korea,73,Rich
+Kuwait,36,Rich
+Lao PDR,129,Poor
+Lebanon,49,Poor
+Liberia,102,Poor
+Libya,50,Poor
+St. Lucia,39,Poor
+Liechtenstein,2,Rich
+Sri Lanka,103,Poor
+Lesotho,13,Poor
+Lithuania,18,Rich
+Luxembourg,4,Rich
+Latvia,18,Poor
+"Macao SAR, China",13,Poor
+St. Martin (French part),34,Poor
+Morocco,90,Poor
+Monaco,18,Rich
+Moldova,23,Poor
+Madagascar,269,Poor
+Maldives,26,Poor
+Mexico,348,Poor
+Marshall Islands,23,Poor
+North Macedonia,32,Poor
+Mali,33,Poor
+Malta,29,Poor
+Myanmar,158,Poor
+Montenegro,51,Poor
+Mongolia,37,Poor
+Northern Mariana Islands,34,Poor
+Mozambique,119,Poor
+Mauritania,82,Poor
+Mauritius,40,Poor
+Malawi,65,Poor
+Malaysia,221,Poor
+Namibia,80,Poor
+New Caledonia,63,Poor
+Niger,30,Poor
+Nigeria,126,Poor
+Nicaragua,64,Poor
+Netherlands,28,Rich
+Norway,42,Rich
+Nepal,74,Poor
+Nauru,15,Poor
+New Zealand,116,Rich
+Oman,59,Rich
+Pakistan,104,Poor
+Panama,99,Poor
+Peru,224,Poor
+Philippines,222,Poor
+Palau,31,Poor
+Papua New Guinea,141,Poor
+Poland,23,Poor
+Puerto Rico,45,Poor
+North Korea,59,Poor
+Portugal,95,Rich
+Paraguay,37,Poor
+West Bank and Gaza,21,Poor
+French Polynesia,63,Poor
+Qatar,30,Rich
+Romania,48,Poor
+Russia,130,Poor
+Rwanda,51,Poor
+Saudi Arabia,70,Rich
+Sudan,74,Poor
+Senegal,96,Poor
+Singapore,65,Rich
+Solomon Islands,67,Poor
+Sierra Leone,95,Poor
+El Salvador,30,Poor
+San Marino,0,Poor
+Somalia,68,Poor
+Serbia,34,Poor
+S. Sudan,35,Poor
+Sao Tome and Principe,41,Poor
+Suriname,50,Poor
+Slovakia,21,Rich
+Slovenia,49,Rich
+Sweden,27,Rich
+Eswatini,27,Poor
+Sint Maarten (Dutch part),34,Poor
+Seychelles,43,Poor
+Syrian Arab Republic,82,Poor
+Turks and Caicos Islands,36,Poor
+Chad,33,Poor
+Togo,64,Poor
+Thailand,227,Poor
+Tajikistan,27,Poor
+Turkmenistan,42,Poor
+Timor-Leste,24,Poor
+Tonga,23,Poor
+Trinidad and Tobago,44,Poor
+Tunisia,64,Poor
+Turkey,170,Poor
+Tuvalu,16,Poor
+Tanzania,269,Poor
+Uganda,121,Poor
+Ukraine,52,Poor
+Uruguay,77,Poor
+United States of America,382,Rich
+Uzbekistan,36,Poor
+St. Vincent and the Grenadines,35,Poor
+Venezuela,132,Poor
+British Virgin Islands,35,Poor
+Virgin Islands (U.S.),33,Poor
+Vietnam,191,Poor
+Vanuatu,34,Poor
+Samoa,24,Poor
+Kosovo,0,Poor
+Yemen,67,Poor
+South Africa,205,Poor
+Zambia,53,Poor
+Zimbabwe,32,Poor
