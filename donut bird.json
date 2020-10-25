@@ -17,7 +17,9 @@
     "mark": {"type": "arc", "innerRadius": 50},
     "encoding": {
       "theta": {"field": "value", "type": "quantitative", "stack": true},
-      "color": {"field": "Area", "type": "nominal"}
+      "color": {"field": "Area", "type": "nominal"},
+
+      "tooltip" : {"field" : "value"}
     },
     "view": {"stroke": null},
     "config": {

@@ -15,6 +15,9 @@
   "encoding": {
     "theta": {"field": "value", "type": "quantitative"},
     "color": {"field": "Area", "type": "nominal"}
+    ,
+
+    "tooltip" : {"field" : "value"}
   },
   "view": {"stroke": null},
   "config": {
