@@ -31,6 +31,8 @@
         "type": "quantitative",
         "axis": {"minExtent": 30}
       },
+
+      "tooltip" : [{"field": "Count", "type": "quantitative","title":"Number of Species Endangered"},{"field" :"Type"}],      
       "color": {
         "condition": {
           "selection": "brush",
