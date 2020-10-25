@@ -19,8 +19,9 @@
       "theta": {"field": "value", "type": "quantitative", "stack": true},
       "color": {"field": "Area", "type": "nominal"},
 
-      "tooltip" : {"field" : "value"}
-    },
+      "tooltip": [{"field": "Area"},{
+        "field" : "value", "title" : "Percentage"
+      }]    },
     "view": {"stroke": null},
     "config": {
         "background": "#ffffff",
