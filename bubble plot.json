@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
     "width": 700,
     "height": 400,
-    "title": "COVID-19 Cases per Country (13 Oct 2020)",
+    "title": "Protected Wildlife Areas",
     "data": {
       "url": "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/no%20null%20value%20protected%20area.csv"
     },
@@ -52,6 +52,16 @@
       },
       {"filter": "datum.GDP > GDP_Above"}
     ],
+    "encoding": {
+               "x": {
+            "field": "Area",
+            "type": "quantitative",
+            "title": "Country Area (sq km)",
+            "axis": {"tickCount": 6},
+            "scale": {"type": "log", "domain": [1, 20000000]}
+          },
+          "y": {"field": "Protected Area (%)", "type": "quantitative"}
+    },
     "layer": [
       {
         "selection": {
@@ -63,14 +73,6 @@
         },
         "mark": "circle",
         "encoding": {
-          "x": {
-            "field": "Area",
-            "type": "quantitative",
-            "title": "Country Area (sq km)",
-            "axis": {"tickCount": 6},
-            "scale": {"type": "log", "domain": [1, 200000000]}
-          },
-          "y": {"field": "Protected Area (%)", "type": "quantitative"},
           "opacity": {
             "condition": {"selection": "continent_highlight", "value": 0.6},
             "value": 0.2
@@ -139,7 +141,8 @@
           "text": {"field": "Country", "type": "nominal"},
           "color": {"value": "black"},
           "opacity": {
-            "condition": {"test": "datum['Country'] == 'Andorra' ", "value": 1},
+            "condition": {"test": "datum['Country'] == 'China' || datum['Country'] == 'India' || datum['country'] == 'Indonesia' ",
+             "value": 1},
             "value": 0
           },
           "tooltip": [
@@ -155,5 +158,47 @@
           ]
         }
       }
-    ]
+    ],
+    "config": {
+      "background": "rgb(255,247,238)",
+      "arc": {"fill": "#ab5787"},
+      "area": {"fill": "#ab5787"},
+      "line": {"stroke": "#ab5787"},
+      "path": {"stroke": "#ab5787"},
+      "rect": {"fill": "#ab5787"},
+      "shape": {"stroke": "#ab5787"},
+      "symbol": {"fill": "#ab5787", "size": 30},
+      "axis": {
+        "domainColor": "#979797",
+        "domainWidth": 0.5,
+        "gridWidth": 0.2,
+        "labelColor": "#979797",
+        "tickColor": "#979797",
+        "tickWidth": 0.2,
+        "titleColor": "#979797"
+      },
+      "axisBand": {"grid": false},
+      "axisX": {"grid": true, "tickSize": 10},
+      "axisY": {"domain": false, "grid": true, "tickSize": 0},
+      "legend": {
+        "labelFontSize": 11,
+        "padding": 1,
+        "symbolSize": 30,
+        "symbolType": "circle"
+      },
+      "range": {
+        "category": [
+          "#ab5787",
+          "#51b2e5",
+          "#703c5c",
+          "#168dd9",
+          "#d190b6",
+          "#00609f",
+          "#d365ba",
+          "#154866",
+          "#666666",
+          "#c4c4c4"
+        ]
+      }
+    }
   }
