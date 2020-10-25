@@ -234,6 +234,26 @@ gz {
         <img id ="whaleimg"src="whale.jpg" alt="animals">
       </div>
     </div>
+    
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h2>Are we doing enough?</h2>
+      </div>
+    </div>
+
+    
+    <div class="pure-g">
+      <div class="pure-u">
+          <b>Protected Areas</b>
+          <p>The following bubble chart shows how countries are allocating area against their total area. The bubble chart also filters countries by GDP per capita and Continents to show how rich and poor countries compare and how each continent is doing.</p>
+        </div>   
+  </div>
+
+  <div class="pure-g">
+    <div class="pure-u">
+      <div id="bubblechart" class="vis-container"></div>
+    </div>
+</div>
   
     <div class="pure-g">
       <div class="pure-u-1-1 small-font">
@@ -292,7 +312,9 @@ vegaEmbed('#donut6', donut6).then(function(result) {
 vegaEmbed('#donut7', donut7).then(function(result) {
     }).catch(console.error);
 
-
+    var bubblechart = "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/bubble%20plot.json"
+vegaEmbed('#bubblechart', bubblechart).then(function(result) {
+    }).catch(console.error);
 
 
 

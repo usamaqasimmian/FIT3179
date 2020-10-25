@@ -141,7 +141,7 @@
           "text": {"field": "Country", "type": "nominal"},
           "color": {"value": "black"},
           "opacity": {
-            "condition": {"test": "datum['Country'] == 'China' || datum['Country'] == 'India' || datum['country'] == 'Indonesia' ",
+            "condition": {"test": "datum['Country'] == 'China' || datum['Country'] == 'India' || datum['Country'] == 'Indonesia' || datum['Country'] == 'United States of America'|| datum['Country'] == 'Brazil'",
              "value": 1},
             "value": 0
           },
