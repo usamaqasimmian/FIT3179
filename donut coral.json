@@ -1,15 +1,17 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
     "description": "A simple donut chart with embedded data.",
+      "title": {"anchor": "", "text": "Reef Corals"},
+    "background" : "rgb(255,247,238)",
     "data": {
       "values": [
-        {"Area": "Protected", "value": 14.557},
-        {"Area": "Unprotected", "value": 85.443}
+        {"Area": "At Risk", "value": 33},
+        {"Area": "Not Endangered", "value": 67}
       ]
     },
     "mark": {"type": "arc", "innerRadius": 50},
     "encoding": {
-      "theta": {"field": "value", "type": "quantitative"},
+      "theta": {"field": "value", "type": "quantitative", "stack": true},
       "color": {"field": "Area", "type": "nominal"}
     },
     "view": {"stroke": null},
@@ -58,8 +60,8 @@
         },
         "range": {
           "category": [
-            "#ec8431",
-            "#829eb1",
+            "rgb(153,0,0)",
+            "rgb(161,204,217)",
             "#c89d29",
             "#3580b1",
             "#adc839",
