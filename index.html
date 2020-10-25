@@ -134,6 +134,40 @@
         </div>
     </div>
 
+    
+    <div class="pure-g">
+      <div class="pure-u">
+          <p>One in four species are at risk of extinction, these donut charts show what type of species are at risk</p>
+        </div>   
+  </div>
+
+  <div class="pure-g">
+    <div class="pure-1-4">
+      <div id="donut1" class="vis-container"></div>
+    </div>
+    <div class="pure-1-4">
+      <div id="donut2" class="vis-container"></div>
+    </div>
+    <div class="pure-1-4">
+      <div id="donut3" class="vis-container"></div>
+    </div>
+    <div class="pure-1-4">
+      <div id="donut4" class="vis-container"></div>
+    </div>
+</div>
+
+<div class="pure-g">
+<div class="pure-1-4">
+  <div id="donut5" class="vis-container"></div>
+</div>
+<div class="pure-1-4">
+  <div id="donut6" class="vis-container"></div>
+</div>
+<div class="pure-1-4">
+  <div id="donut7" class="vis-container"></div>
+</div>
+</div>
+
     <div class="pure-g">
       <div class="pure-u">
           <b>Whale Populations 1890 to 2001</b>
@@ -180,6 +214,40 @@ vegaEmbed('#vis3', specVis3).then(function(result) {
     var specVis4 = "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/whalepopulation.json"
 vegaEmbed('#vis4', specVis4).then(function(result) {
     }).catch(console.error);
+
+    var donut1 = "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/donut%20amp.json"
+vegaEmbed('#donut1', donut1).then(function(result) {
+    }).catch(console.error);
+
+
+    var donut2 = "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/donut%20conifers.json"
+vegaEmbed('#donut2', donut2).then(function(result) {
+    }).catch(console.error);
+
+
+    var donut3 = "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/donut%20coral.json"
+vegaEmbed('#donut3', donut3).then(function(result) {
+    }).catch(console.error);
+
+    var donut4 = "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/donut%20shark%20and%20rays.json"
+vegaEmbed('#donut4', donut4).then(function(result) {
+    }).catch(console.error);
+
+    var donut5 = "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/donut%20crus.json"
+vegaEmbed('#donut5', donut5).then(function(result) {
+    }).catch(console.error);
+
+    var donut6 = "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/donut%20mammals.json"
+vegaEmbed('#donut6', donut6).then(function(result) {
+    }).catch(console.error);
+
+    var donut7 = "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/donut%bird.json"
+vegaEmbed('#donut7', donut7).then(function(result) {
+    }).catch(console.error);
+
+
+
+
 
 </script>
 </body>

@@ -1,8 +1,11 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
     "description": "A simple donut chart with embedded data.",
-      "title": {"anchor": "", "text": "Reef Corals"},
+      "title": {"text": "Reef Corals","fontSize" :20},
     "background" : "rgb(255,247,238)",
+    "padding": 0,
+    "width": 70,
+    "height": 100,
     "data": {
       "values": [
         {"Area": "At Risk", "value": 33},
