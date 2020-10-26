@@ -1,0 +1,167 @@
+{
+    "$schema": "https://vega.github.io/schema/vega/v5.json",
+    "background": "#f9f9f9",
+    "padding": 5,
+    "width": 300,
+    "height": 300,
+    "style": "cell",
+    "data": [
+      {
+        "name": "source_0",
+        "url": "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/ICUN%20Classification.csv",
+        "format": {"type": "csv", "delimiter": ","},
+        "transform": [
+          {
+            "type": "aggregate",
+            "groupby": ["KINGDOM", "ICUN  Classification", "NUMBER"],
+            "ops": ["sum"],
+            "fields": ["NUMBER"],
+            "as": ["sum_NUMBER"]
+                    },
+          {
+            "type": "stack",
+            "groupby": ["KINGDOM"],
+            "field": "sum_NUMBER",
+            "as": ["sum_NUMBER_start", "sum_NUMBER_end"],
+            "offset": "zero"
+          },
+          {
+            "type": "filter",
+            "expr": "isValid(datum[\"sum_NUMBER\"]) && isFinite(+datum[\"sum_NUMBER\"])"
+          }
+        ]
+      }
+    ],
+    "marks": [
+      {
+        "name": "marks",
+        "type": "rect",
+        "style": ["bar"],
+        "from": {"data": "source_0"},
+        "encode": {
+          "update": {
+            "fill": {"scale": "color", "field": "ICUN  Classification"},
+            "tooltip": {
+              "signal": "{\"KINGDOM\": isValid(datum[\"KINGDOM\"]) ? datum[\"KINGDOM\"] : \"\"+datum[\"KINGDOM\"], \"NUMBER\": isValid(datum[\"NUMBER\"]) ? datum[\"NUMBER\"] : \"\"+datum[\"NUMBER\"], \"ICUN  Classification\": isValid(datum[\"ICUN  Classification\"]) ? datum[\"ICUN  Classification\"] : \"\"+datum[\"ICUN  Classification\"]}"
+            },
+            "ariaRoleDescription": {"value": "bar"},
+            "description": {
+              "signal": "\"Sum of NUMBER: \" + (format(datum[\"sum_NUMBER\"], \"\")) + \"; KINGDOM: \" + (isValid(datum[\"KINGDOM\"]) ? datum[\"KINGDOM\"] : \"\"+datum[\"KINGDOM\"]) + \"; ICUN  Classification: \" + (isValid(datum[\"ICUN  Classification\"]) ? datum[\"ICUN  Classification\"] : \"\"+datum[\"ICUN  Classification\"]) + \"; NUMBER: \" + (isValid(datum[\"NUMBER\"]) ? datum[\"NUMBER\"] : \"\"+datum[\"NUMBER\"])"
+            },
+            "x": {"scale": "x", "field": "sum_NUMBER_end"},
+            "x2": {"scale": "x", "field": "sum_NUMBER_start"},
+            "y": {"scale": "y", "field": "KINGDOM"},
+            "height": {"scale": "y", "band": 1}
+          }
+        }
+      }
+    ],
+    "scales": [
+      {
+        "name": "x",
+        "type": "linear",
+        "domain": {
+          "data": "source_0",
+          "fields": ["sum_NUMBER_start", "sum_NUMBER_end"]
+        },
+        "range": [0, {"signal": "width"}],
+        "nice": true,
+        "zero": true
+      },
+      {
+        "name": "y",
+        "type": "band",
+        "domain": {"data": "source_0", "field": "KINGDOM", "sort": false},
+        "range": [0, {"signal": "height"}],
+        "paddingInner": 0.1,
+        "paddingOuter": 0.05
+      },
+      {
+        "name": "color",
+        "type": "ordinal",
+        "domain": {
+          "data": "source_0",
+          "field": "ICUN  Classification",
+          "sort": false
+        },
+        "range": "category"
+      }
+    ],
+    "axes": [
+      {
+        "scale": "x",
+        "orient": "bottom",
+        "gridScale": "y",
+        "grid": true,
+        "tickCount": {"signal": "ceil(width/40)"},
+        "domain": false,
+        "labels": false,
+        "aria": false,
+        "maxExtent": 0,
+        "minExtent": 0,
+        "ticks": false,
+        "zindex": 0
+      },
+      {
+        "scale": "x",
+        "orient": "bottom",
+        "grid": false,
+        "title": "NUMBER",
+        "labelFlush": true,
+        "labelOverlap": true,
+        "tickCount": {"signal": "ceil(width/40)"},
+        "zindex": 0
+      },
+      {
+        "scale": "y",
+        "orient": "left",
+        "grid": false,
+        "title": "KINGDOM",
+        "zindex": 0
+      }
+    ],
+    "legends": [{"fill": "color", "title": "ICUN  Classification"}],
+    "config": {
+      "path": {"stroke": "#990000"},
+      "shape": {"stroke": "#ab5787"},
+      "symbol": {"fill": "#ab5787", "size": 30},
+      "range": {
+        "category": [
+          "#ab5787",
+          "#51b2e5",
+          "#703c5c",
+          "#168dd9",
+          "#d190b6",
+          "#00609f",
+          "#d365ba",
+          "#154866",
+          "#666666",
+          "#c4c4c4"
+        ]
+      },
+      "axis": {
+        "domainColor": "#990000",
+        "domainWidth": 0.5,
+        "gridWidth": 0.2,
+        "labelColor": "#979797",
+        "tickColor": "#979797",
+        "tickWidth": 0.2,
+        "titleColor": "#979797"
+      },
+      "axisBand": {"grid": false},
+      "axisX": {"grid": true, "tickSize": 10},
+      "axisY": {"domain": false, "grid": true, "tickSize": 0},
+      "legend": {
+        "labelFontSize": 11,
+        "padding": 1,
+        "symbolSize": 30,
+        "symbolType": "square"
+      },
+      "style": {
+        "arc": {"fill": "#990000"},
+        "area": {"fill": "#990000"},
+        "line": {"stroke": "#990000"},
+        "rect": {"fill": " #990000"}
+      }
+    }
+  }
