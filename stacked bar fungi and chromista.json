@@ -8,7 +8,7 @@
   "data": [
     {
       "name": "source_0",
-      "url": "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/stacked%20bar%20fungi%20and%20chromista.json",
+      "url": "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/ICUN%20FUNGI%20AND%20CHROMISTA.csv",
       "format": {"type": "csv", "delimiter": ","},
       "transform": [
         {
