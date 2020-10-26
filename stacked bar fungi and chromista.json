@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega/v5.json",
-    "background" : "rgb(255,247,238)",
+  "background" : "rgb(255,247,238)",
     "padding": 5,
     "width": 300,
     "height": 300,
@@ -8,7 +8,7 @@
     "data": [
       {
         "name": "source_0",
-        "url": "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/ICUN%20Classification.csv",
+        "url": "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/ICUN%20FUNGI%20AND%20CHROMISTA.csv",
         "format": {"type": "csv", "delimiter": ","},
         "transform": [
           {
