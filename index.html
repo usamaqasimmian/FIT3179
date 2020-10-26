@@ -272,6 +272,29 @@ kj {
       <div id="bubblechart" class="vis-container"></div>
     </div>
 </div>
+
+
+<div class="pure-g">
+  <div class="pure-u">
+      <b>Role of International Organisations</b>
+      <p>ICUN Red list is a international organisation which monitors species and classify them according to their numbers. There are 7 classifications ranging from Extinct to Least Concern, where extinct means that specie has no living members and least concerned means that the animal is not under any threat. </p>
+    </div>   
+</div>
+
+<div class="pure-g">
+  <div class="pure-u">
+    <div id="stackchart1" class="vis-container"></div>
+  </div>
+</div>
+
+<div class="pure-g">
+  <div class="pure-u">
+    <div id="stackchart2" class="vis-container"></div>
+  </div>
+</div>
+
+
+
   
     <div class="pure-g">
       <div class="pure-u-1-1 small-font">
@@ -334,6 +357,15 @@ vegaEmbed('#donut7', donut7).then(function(result) {
 vegaEmbed('#bubblechart', bubblechart).then(function(result) {
     }).catch(console.error);
 
+
+    var stackchart1 = "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/stacked%20bar%20animalia%20plant.json"
+vegaEmbed('#stackchart1', stackchart1).then(function(result) {
+    }).catch(console.error);
+
+
+    var stackchart2 = "https://raw.githubusercontent.com/usamaqasimmian/FIT3179/main/stacked%20bar%20fungi%20and%20chromista.json"
+vegaEmbed('#stackchart2', stackchart2).then(function(result) {
+    }).catch(console.error);
 
 
 </script>
