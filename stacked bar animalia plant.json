@@ -120,7 +120,7 @@
       "zindex": 0
     }
   ],
-  "legends": [{"fill": "color", "title": "ICUN  Classification"}],
+  "legends": [{"fill": "color", "title": "IUCN  Classification"}],
   "config": {
     "group": {"fill": "#e5e5e5"},
     "arc": {"fill": "#000"},
