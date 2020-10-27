@@ -1,15 +1,15 @@
-﻿KINGDOM,NUMBER,ICUN  Classification,,
-FUNGI,0,Extinct (ER),,0
-FUNGI,0,Extinct in the Wild (EW),,0
-FUNGI,22,Critically Endangered (CR),,7.006369427
-FUNGI,66,Endangered (EN),,21.01910828
-FUNGI,105,Vunerable (VN),,33.43949045
-FUNGI,46,Near Threatened (NT),,14.64968153
-FUNGI,75,Least Concern (LC),,23.88535032
-CHROMISTA,0,Extinct (ER),,0
-CHROMISTA,0,Extinct in the Wild (EW),,0
-CHROMISTA,8,Critically Endangered (CR),,80
-CHROMISTA,1,Endangered (EN),,10
-CHROMISTA,1,Vunerable (VN),,10
-CHROMISTA,0,Near Threatened (NT),,0
-CHROMISTA,0,Least Concern (LC),,0
+﻿KINGDOM,NUMBER,ICUN  Classification
+FUNGI,0,Extinct (ER)
+FUNGI,0,Extinct in the Wild (EW)
+FUNGI,22,Critically Endangered (CR)
+FUNGI,66,Endangered (EN)
+FUNGI,105,Vunerable (VN)
+FUNGI,46,Near Threatened (NT)
+FUNGI,75,Least Concern (LC)
+CHROMISTA,0,Extinct (ER)
+CHROMISTA,0,Extinct in the Wild (EW)
+CHROMISTA,8,Critically Endangered (CR)
+CHROMISTA,1,Endangered (EN)
+CHROMISTA,1,Vunerable (VN)
+CHROMISTA,0,Near Threatened (NT)
+CHROMISTA,0,Least Concern (LC)
