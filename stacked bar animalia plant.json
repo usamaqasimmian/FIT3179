@@ -42,7 +42,7 @@
         "update": {
           "fill": {"scale": "color", "field": "ICUN  Classification"},
           "tooltip": {
-            "signal": "{\"Kingdom\": isValid(datum[\"KINGDOM\"]) ? datum[\"KINGDOM\"] : \"\"+datum[\"KINGDOM\"], \"Percentage\": isValid(datum[\"Percentage\"]) ? datum[\"Percentage\"] : \"\"+datum[\"Percentage\"], \"ICUN  Classification\": isValid(datum[\"ICUN  Classification\"]) ? datum[\"ICUN  Classification\"] : \"\"+datum[\"ICUN  Classification\"]}"
+            "signal": "{\"KINGDOM\": isValid(datum[\"KINGDOM\"]) ? datum[\"KINGDOM\"] : \"\"+datum[\"KINGDOM\"], \"Percentage\": isValid(datum[\"Percentage\"]) ? datum[\"Percentage\"] : \"\"+datum[\"Percentage\"], \"ICUN  Classification\": isValid(datum[\"ICUN  Classification\"]) ? datum[\"ICUN  Classification\"] : \"\"+datum[\"ICUN  Classification\"]}"
           },
           "ariaRoleDescription": {"value": "bar"},
           "description": {
@@ -116,7 +116,7 @@
       "scale": "y",
       "orient": "left",
       "grid": false,
-      "title": "KINGDOM",
+      "title": "Kingdom",
       "zindex": 0
     }
   ],
