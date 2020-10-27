@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "background" : "rgb(255,247,238)",
+  "background": "rgb(255,247,238)",
   "padding": 5,
   "width": 300,
   "height": 300,
@@ -13,11 +13,11 @@
       "transform": [
         {
           "type": "aggregate",
-          "groupby": ["KINGDOM", "ICUN  Classification","Percentage"],
+          "groupby": ["KINGDOM", "ICUN  Classification", "Percentage"],
           "ops": ["sum"],
           "fields": ["Percentage"],
           "as": ["sum_NUMBER"]
-                  },
+        },
         {
           "type": "stack",
           "groupby": ["KINGDOM"],
@@ -122,9 +122,38 @@
   ],
   "legends": [{"fill": "color", "title": "ICUN  Classification"}],
   "config": {
+    "group": {"fill": "#e5e5e5"},
+    "arc": {"fill": "#000"},
+    "area": {"fill": "#000"},
+    "line": {"stroke": "#000"},
     "path": {"stroke": "#990000"},
+    "rect": {"fill": "#000"},
     "shape": {"stroke": "#ab5787"},
     "symbol": {"fill": "#ab5787", "size": 30},
+    "axis": {
+      "domain": false,
+      "grid": true,
+      "gridColor": "#FFFFFF",
+      "gridOpacity": 1,
+      "labelColor": "#979797",
+      "labelPadding": 4,
+      "tickColor": "#979797",
+      "tickSize": 5.67,
+      "titleFontSize": 16,
+      "titleFontWeight": "normal",
+      "domainColor": "#990000",
+      "domainWidth": 0.5,
+      "gridWidth": 0.2,
+      "tickWidth": 0.2,
+      "titleColor": "#979797"
+    },
+    "legend": {
+      "labelBaseline": "middle",
+      "labelFontSize": 11,
+      "symbolSize": 30,
+      "padding": 1,
+      "symbolType": "square"
+    },
     "range": {
       "category": [
         "#ab5787",
@@ -139,24 +168,9 @@
         "#c4c4c4"
       ]
     },
-    "axis": {
-      "domainColor": "#990000",
-      "domainWidth": 0.5,
-      "gridWidth": 0.2,
-      "labelColor": "#979797",
-      "tickColor": "#979797",
-      "tickWidth": 0.2,
-      "titleColor": "#979797"
-    },
     "axisBand": {"grid": false},
     "axisX": {"grid": true, "tickSize": 10},
     "axisY": {"domain": false, "grid": true, "tickSize": 0},
-    "legend": {
-      "labelFontSize": 11,
-      "padding": 1,
-      "symbolSize": 30,
-      "symbolType": "square"
-    },
     "style": {
       "arc": {"fill": "#990000"},
       "area": {"fill": "#990000"},
