@@ -20,7 +20,7 @@
     },
     {"calculate": "datum.rate + 0.1", "as": "number"}
   ],
-  "projection": {"type": "mercator"},
+  "projection": {"type": "equalEarth"},
   "mark": {"type": "geoshape"},
   "encoding": {
     "color": {
