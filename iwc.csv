@@ -76,7 +76,7 @@ Gibraltar,Not a Member
 Guinea,Member
 Gambia,Member
 Guinea-Bissau,Member
-Equatorial Guinea,Not a Member
+Eq. Guinea,Not a Member
 Greece,Member
 Grenada,Member
 Greenland,Member with Aboriginal Whaling
@@ -128,7 +128,7 @@ Madagascar,Not a Member
 Maldives,Not a Member
 Mexico,Member
 Marshall Islands,Member
-North Macedonia,Not a Member
+Macedonia,Not a Member
 Mali,Member
 Malta,Not a Member
 Myanmar,Not a Member
@@ -224,4 +224,6 @@ Taiwan,Member
 Bahamas,Member
 Solomon Is.,Member
 Falkland Is.,Member
-Fr. S. Antarctic Lands,
+Fr. S. Antarctic Lands,Member
+W.Sahara,Not a Member
+Palestine,Not a Member
