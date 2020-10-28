@@ -1,19 +1,5 @@
 ﻿Country,Member Type
 Aruba,Not a Member
-Afghanistan,Not a Member
-Antarctica,Not a Member
-Angola,Not a Member
-Albania,Not a Member
-Andorra,Not a Member
-United Arab Emirates,Not a Member
-Argentina,Member
-Armenia,Not a Member
-American Samoa,Not a Member
-Antigua and Barbuda,Member
-Australia,Member
-Austria,Member
-Azerbaijan,Not a Member
-Burundi,Not a Member
 Belgium,Member
 Benin,Member
 Burkina Faso,Not a Member
@@ -58,7 +44,7 @@ Denmark,Not a Member
 Dominican Rep.,Member
 Algeria,Not a Member
 Ecuador,Member
-Egypt,Former Member
+Egypt,Not a Member
 Eritrea,Member
 Spain,Member
 Estonia,Member
@@ -80,7 +66,7 @@ Eq. Guinea,Not a Member
 Greece,Member
 Grenada,Member
 Greenland,Member with Aboriginal Whaling
-Guatemala,Former Member
+Guatemala,Not a Member
 Guam,Not a Member
 Guyana,Not a Member
 "Hong Kong SAR, China",Member
@@ -207,7 +193,7 @@ Uruguay,Member
 United States of America,Member with Aboriginal Whaling
 Uzbekistan,Not a Member
 St. Vincent and the Grenadines,Not a Member
-Venezuela,Former Member
+Venezuela,Not a Member
 British Virgin Islands,Not a Member
 Virgin Islands (U.S.),Not a Member
 Vietnam,Not a Member

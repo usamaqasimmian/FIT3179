@@ -20,7 +20,7 @@
     },
     {"calculate": "datum.rate + 0.1", "as": "number"}
   ],
-  "projection": {"type": "equalEarth"},
+  "projection": {"type": "naturalEarth1"},
   "mark": {"type": "geoshape"},
   "encoding": {
     "color": {
