@@ -11,8 +11,8 @@
       {"label": "End", "amount": 0}
     ]
   },
-  "width": 450,
-  "height": 300,
+  "width": 650,
+  "height": 500,
   "transform": [
     {"window": [{"op": "sum", "field": "amount", "as": "sum"}]},
     {"window": [{"op": "lead", "field": "label", "as": "lead"}]},
